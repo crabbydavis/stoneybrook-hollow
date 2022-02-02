@@ -1,5 +1,43 @@
 $brown: #5A4B2D;
 
+.top {
+    height: 180px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../../../assets/img/off-white-background.jpg');
+    background-position: center;
+    background-size: cover;
+    .toolbar {
+        position: absolute;
+        top: 0;
+        left: 0;
+        // background: transparent;
+        --background: transparent;
+    }
+    .logo {
+        width: 90%;
+        position: relative;
+        left: -15px;
+    }
+    // .title {
+    //     h1 {
+    //         font-size: 34px;
+    //         margin-bottom: 10px;
+    //         font-family: "Lora";
+    //     }
+    //     .subtitle {
+    //         margin-top: 0px;
+    //         color:  white;
+    //         font-size: 15px;
+    //         color: $brown;
+    //         text-align: right;
+    //         font-family: "Raleway";
+    //     }
+    // }
+}
 .banner {
     background-image: url('../../../assets/img/main-girl.jpeg');
     background-position: top;
@@ -24,13 +62,16 @@ $brown: #5A4B2D;
         align-items: flex-start;
         .primary {
             color: $brown;
-            font-size: 30px;
+            font-size: 36px;
             margin-top:  5px;
             margin-bottom: 15px;
+            font-family: "Spartwell";
         }
         .secondary {
             color:  var(--ion-color-primary);
             font-size: 20px;
+            font-family: "Raleway";
+            font-weight: 600;
         }
     }
 }

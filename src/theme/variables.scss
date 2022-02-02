@@ -19,10 +19,6 @@
  * check out our color generator:
  * https://www.ionicframework.com/docs/theming/color-generator
  */
-  // fonts
-  // catchy mager
-  // glacial indifference
-  //  brightwall
 
  :root {
   /** primary **/
@@ -104,17 +100,17 @@ ion-content {
 }
 ion-header {
   ion-toolbar {
-    --background: rgb(22, 22, 22);
+    --background: var(--ion-color-primary);
     --color: white;
   }
 }
 ion-menu {
-  --background:rgb(22, 22, 22);
+  --background: var(--ion-color-primary);
   ion-content {
-    --background: rgb(22, 22, 22) !important;
+    --background: var(--ion-color-primary);
     // ion-list {
       ion-item {
-        --background: rgb(22, 22, 22) !important;
+        --background: var(--ion-color-primary);
         color: white;
       }
     // }

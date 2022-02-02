@@ -2,9 +2,7 @@ import { ContactUsPage } from './pages/contact-us/contact-us.page';
 import { Component, ViewEncapsulation } from '@angular/core';
 
 import { Platform, ModalController } from '@ionic/angular';
-import { Plugins, StatusBarStyle } from '@capacitor/core';
 
-const { SplashScreen, StatusBar } = Plugins;
 
 @Component({
   selector: 'app-root',
@@ -24,15 +22,6 @@ export class AppComponent {
 
   initializeApp() {
     this.platform.ready().then(() => {
-      StatusBar.setStyle({
-        style: StatusBarStyle.Dark //this.isStatusBarLight ? StatusBarStyle.Dark : StatusBarStyle.Light
-      });
-
-      // Display content under transparent status bar (Android only)
-      StatusBar.setOverlaysWebView({
-        overlay: true
-      });
-      SplashScreen.hide();
     });
   }
 

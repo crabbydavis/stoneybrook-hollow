@@ -1,15 +1,25 @@
-<ion-header>
+<!-- <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>
-      Home
-    </ion-title>  
+    <ion-title>home</ion-title>  
     <ion-buttons slot="end">
-      <ion-menu-button autoHide="false"></ion-menu-button>
+      <ion-menu-button color="light" autoHide="false"></ion-menu-button>
     </ion-buttons>           
   </ion-toolbar>
-</ion-header>
+</ion-header> -->
 
 <ion-content>
+  <div class="top">
+    <ion-toolbar class="toolbar">
+      <ion-buttons slot="end">
+        <ion-menu-button color="primary" autoHide="false"></ion-menu-button>
+      </ion-buttons>           
+    </ion-toolbar>
+    <img class="logo" src="assets/img/logo.png">
+    <!-- <div class="title">
+      <h1>stoneybrook hollow</h1>
+      <p class="subtitle">reggio-inspired early learning studio</p>
+    </div> -->
+  </div>
   <div class="banner">
     <div class="mission">
       <div class="secondary">we cultivate</div>
@@ -20,4 +30,5 @@
       <div class="primary">child-led learning</div>
     </div>
   </div>
+  <h2 class="model">what makes our model different?</h2>
 </ion-content>

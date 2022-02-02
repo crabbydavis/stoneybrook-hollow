@@ -12,16 +12,10 @@ import { AppComponent } from './app.component';
 import { FormsModule } from '@angular/forms';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { SocialSharing } from '@ionic-native/social-sharing/ngx';
-import { AngularFireModule } from '@angular/fire';
-import { AngularFireStorageModule } from '@angular/fire/storage';
-import { AngularFirestoreModule } from '@angular/fire/firestore';
 
 
 @NgModule({
   imports: [
-    AngularFireModule.initializeApp(environment.firebaseConfig),
-    AngularFireStorageModule,
-    AngularFirestoreModule,
     BrowserModule,
     BrowserAnimationsModule,
     AppRoutingModule,

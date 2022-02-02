@@ -1,9 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
-import { Plugins } from '@capacitor/core';
 import { ToastController } from '@ionic/angular';
 
-const { Clipboard } = Plugins;
+import { Clipboard } from '@capacitor/clipboard';
 
 @Component({
   selector: 'app-contact-us',
@@ -21,21 +20,11 @@ export class ContactUsPage implements OnInit {
   ) { }
 
   ngOnInit() {
-    this.contactForm = this.fb.group({
-      hearAbout: [null, [Validators.required]],
-      firstName: [null, [Validators.required]],
-      lastName: [null, [Validators.required]],
-      message: [null, [Validators.required]]
-    });
   }
 
-  updateMessage(): void {
-    this.emailMessage = `First Name: ${this.contactForm.get('firstName').value}%0ALast Name: ${this.contactForm.get('lastName').value}%0AHow did you hear about us? ${this.contactForm.get('hearAbout').value}%0A%0AIs there a piece on the site you're interested in or do you have something custom in mind?%0A`
-  }
-
-  async copyEmail() {
+  async copyPhone() {
     Clipboard.write({
-      string: 'ezrafurnitureco@gmail.com'
+      string: '435-840-2031'
     }).then(async () => {
       const toast = await this.toasterCtrl.create({
         message: 'Copied to clipboard',

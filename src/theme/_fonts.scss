@@ -1,37 +1,9 @@
-// DC 6/2/21 - Montserrat used for headings
-@font-face{
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 200;
-  unicode-range: U+000-5FF; /* Download only latin glyphs */
-  src: url('../assets/fonts/Montserrat-Light.woff2') format('woff2'),
-  url('../assets/fonts/Montserrat-Light.woff') format('woff');
-  font-display: swap;
+@font-face {
+  font-family: "Spartwell";
+  src: local("Spartwell"), url(../assets/fonts/Spartwell.otf) format("truetype");
 }
-@font-face{
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 300;
-  unicode-range: U+000-5FF; /* Download only latin glyphs */
-  src: url('../assets/fonts/Montserrat-Regular.woff2') format('woff2'),
-  url('../assets/fonts/Montserrat-Regular.woff') format('woff');
-  font-display: swap;
-}
-@font-face{
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 500;
-  unicode-range: U+000-5FF; /* Download only latin glyphs */
-  src: url('../assets/fonts/Montserrat-SemiBold.woff2') format('woff2'),
-  url('../assets/fonts/Montserrat-SemiBold.woff') format('woff');
-  font-display: swap;
-}
-@font-face{
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 700;
-  unicode-range: U+000-5FF; /* Download only latin glyphs */
-  src: url('../assets/fonts/Montserrat-Bold.woff2') format('woff2'),
-  url('../assets/fonts/Montserrat-Bold.woff') format('woff');
-  font-display: swap;
-}
+
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
