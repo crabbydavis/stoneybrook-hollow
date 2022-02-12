@@ -11,7 +11,6 @@ import { Platform, ModalController } from '@ionic/angular';
   encapsulation: ViewEncapsulation.None
 })
 export class AppComponent {
-  dark = false;
 
   constructor(
     private modalCtrl: ModalController,

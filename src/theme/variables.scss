@@ -26,8 +26,8 @@
   --ion-color-primary-rgb: 56, 128, 255;
   --ion-color-primary-contrast: #ffffff;
   --ion-color-primary-contrast-rgb: 255, 255, 255;
-  --ion-color-primary-shade: #3171e0;
-  --ion-color-primary-tint: #4c8dff;
+  --ion-color-primary-shade: #556851;
+  --ion-color-primary-tint: #91a38d;
 
   /** secondary **/
   --ion-color-secondary: #3dc2ff;
@@ -96,7 +96,6 @@
 
 ion-content {
   --background: #e4e4e4;
-  // --color: var(--color-txt);
 }
 ion-header {
   ion-toolbar {
@@ -108,12 +107,9 @@ ion-menu {
   --background: var(--ion-color-primary);
   ion-content {
     --background: var(--ion-color-primary);
-    // ion-list {
-      ion-item {
-        --background: var(--ion-color-primary);
-        color: white;
-      }
-    // }
-    // --color: var(--color-txt);
+    ion-item {
+      --background: var(--ion-color-primary);
+      color: white;
+    }
   }
 }

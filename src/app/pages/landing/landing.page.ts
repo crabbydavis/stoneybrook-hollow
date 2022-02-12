@@ -1,7 +1,10 @@
 import { ContactUsPage } from './../contact-us/contact-us.page';
 import { Component, OnInit } from '@angular/core';
 import { trigger, style, state, animate, transition, keyframes } from '@angular/animations';
-import { ModalController, NavController } from '@ionic/angular';
+import { IonRouterOutlet, ModalController, NavController } from '@ionic/angular';
+import SwiperCore, { Autoplay, Pagination } from 'swiper';
+
+SwiperCore.use([Pagination, Autoplay]);
 
 @Component({
   selector: 'app-landing',
@@ -29,16 +32,18 @@ export class LandingPage implements OnInit {
   banner: { image: string }[] = [];
   slideOpts = {
     autoplay: {
-      delay: 3000
+      delay: 5000
     },
     speed: 1500
   };
   card2State = 'hidden';
   card3State = 'hidden';
+  isModalOpen = false;
 
   constructor(
     private modalCtrl: ModalController,
-    private navCtrl: NavController
+    private navCtrl: NavController,
+    public routerOutlet: IonRouterOutlet
   ) { }
 
   ngOnInit() {
@@ -58,5 +63,9 @@ export class LandingPage implements OnInit {
       cssClass: 'contact-modal'
     });
     modal.present();
+  }
+
+  showCognitiveSlides(): void {
+
   }
 }

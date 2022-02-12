@@ -8,6 +8,8 @@ import { LandingPageRoutingModule } from './landing-routing.module';
 
 import { LandingPage } from './landing.page';
 import { DirectivesModule } from 'src/app/directives/directives.module';
+import { SwiperModule } from 'swiper/angular';
+
 
 @NgModule({
   imports: [
@@ -15,7 +17,8 @@ import { DirectivesModule } from 'src/app/directives/directives.module';
     FormsModule,
     IonicModule,
     LandingPageRoutingModule,
-    DirectivesModule
+    DirectivesModule,
+    SwiperModule
   ],
   declarations: [LandingPage]
 })

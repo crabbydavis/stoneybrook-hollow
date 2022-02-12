@@ -1,6 +1,6 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>FAQ</ion-title>
+    <ion-title>questions</ion-title>
     <ion-buttons slot="end">
       <ion-menu-button color="light" autoHide="false"></ion-menu-button>
     </ion-buttons>    
@@ -9,13 +9,11 @@
 
 <ion-content>
   <ion-accordion-group>
-    <ion-accordion *ngFor="let faq of faqs" [value]="faq.question" toggle-icon="arrow-down-circle">
-      <ion-item slot="header">
-        <ion-label>{{ faq.question }}</ion-label>
+    <ion-accordion *ngFor="let faq of faqs; let index = index" [value]="faq.question" toggle-icon="arrow-down-circle">
+      <ion-item slot="header" tappable (click)="checkToScroll(index)">
+        <ion-label class="ion-text-wrap">{{ faq.question }}</ion-label>
       </ion-item>
-      <p slot="content">
-        {{ faq.answer }}
-      </p>
+      <p slot="content" [innerHtml]="faq.answer"></p>
     </ion-accordion>
   </ion-accordion-group>
 </ion-content>

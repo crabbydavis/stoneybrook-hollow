@@ -1,7 +1,7 @@
 $brown: #5A4B2D;
 
 .top {
-    height: 180px;
+    height: 140px;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -14,7 +14,6 @@ $brown: #5A4B2D;
         position: absolute;
         top: 0;
         left: 0;
-        // background: transparent;
         --background: transparent;
     }
     .logo {
@@ -22,37 +21,14 @@ $brown: #5A4B2D;
         position: relative;
         left: -15px;
     }
-    // .title {
-    //     h1 {
-    //         font-size: 34px;
-    //         margin-bottom: 10px;
-    //         font-family: "Lora";
-    //     }
-    //     .subtitle {
-    //         margin-top: 0px;
-    //         color:  white;
-    //         font-size: 15px;
-    //         color: $brown;
-    //         text-align: right;
-    //         font-family: "Raleway";
-    //     }
-    // }
 }
 .banner {
-    background-image: url('../../../assets/img/main-girl.jpeg');
+    background-image: url('../../../assets/img/main-girl.jpg');
     background-position: top;
     background-size: cover;
     width: 100%;
     height: 500px;
     position: relative;
-    // .white {
-    //     width: 100%;
-    //     height: 100%;
-    //     background-color: rgba(255, 255, 255, 0.39);
-    //     position: absolute;
-    //     left: 0;
-    //     top: 0;
-    // }
     .mission {
         height: 100%;
         padding-left: 15px;
@@ -62,16 +38,62 @@ $brown: #5A4B2D;
         align-items: flex-start;
         .primary {
             color: $brown;
-            font-size: 36px;
+            font-size: 44px;
             margin-top:  5px;
             margin-bottom: 15px;
             font-family: "Spartwell";
         }
         .secondary {
             color:  var(--ion-color-primary);
-            font-size: 20px;
+            font-size: 24px;
             font-family: "Raleway";
             font-weight: 600;
         }
     }
+}
+.model {
+    background-color: var(--ion-color-primary);
+    text-align: center;
+    font-family: "Raleway";
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 30px;
+}
+.model-img {
+    width: 100%;
+    height: 400px;
+    background-position: top;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    .label {
+        background-color: rgba(255, 255, 255, 0.623);
+        width: 100%;
+        height: 150px;
+        font-size: 40px;
+        font-weight: 600;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Raleway';
+        color: $brown;
+    }
+}
+.cognitive {
+    background-image: url('../../../assets/img/cognitive.jpg');
+}
+.social {
+    background-image: url('../../../assets/img/social.jpg');
+}
+.emotional {
+    background-image: url('../../../assets/img/emotional.jpg');
+}
+.spacer {
+    width: 100%;
+    height: 10px;
 }
