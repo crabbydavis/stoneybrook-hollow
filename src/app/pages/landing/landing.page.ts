@@ -36,10 +36,9 @@ export class LandingPage implements OnInit {
     },
     speed: 1500
   };
-  card2State = 'hidden';
-  card3State = 'hidden';
-  isModalOpen = false;
-
+  slideshow = new Array(12);
+  playVideo = false;
+  
   constructor(
     private modalCtrl: ModalController,
     private navCtrl: NavController,
@@ -67,5 +66,13 @@ export class LandingPage implements OnInit {
 
   showCognitiveSlides(): void {
 
+  }
+
+  slideBack() {
+
+  }
+
+  slideForward() {
+    
   }
 }
