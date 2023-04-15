@@ -1,3 +1,54 @@
-ion-title {
+ion-content {
+    --background: #e4e4e4;
+  }
+  ion-header {
+    ion-toolbar {
+      --background: var(--ion-color-primary);
+      --color: white;
+    }
+  }
+  ion-menu {
+    --background: var(--ion-color-primary);
+    ion-content {
+      --background: var(--ion-color-primary);
+      ion-item {
+        --background: var(--ion-color-primary);
+        color: white;
+      }
+    }
+  }
+  ion-button {
+    font-family: "Lora";
+  }
+  ion-title {
     font-family: 'Raleway';
+  }
+
+h1 {
+    font-family: "Lora";
+}
+h2 {
+    font-family: "Raleway";
+}
+@media (max-width: 768px) {
+    .hide-s {
+        display: none !important;
+    }
+    h1 {
+        font-size: xx-large;
+    }
+    h2 {
+        font-size: x-large;
+    }
+}
+@media (min-width: 769px) {
+    .hide-l {
+        display: none !important;
+    }
+    h1 {
+        font-size: xx-large;
+    }
+    h2 {
+        font-size: xx-large;
+    }
 }

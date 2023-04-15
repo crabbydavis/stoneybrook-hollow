@@ -1,0 +1,14 @@
+ion-toolbar {
+    --background: var(--ion-color-primary);
+    img {
+        height: 80px;
+    }
+    ion-button {
+        font-size: x-large;
+        font-family: 'Raleway';
+    }
+}
+.transparent {
+    --background: rgba(0, 0, 0, .5) !important;
+    box-shadow: 0 0 15px 20px #00000080 !important;
+}

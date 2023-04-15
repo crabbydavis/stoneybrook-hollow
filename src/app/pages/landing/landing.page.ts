@@ -34,7 +34,8 @@ export class LandingPage implements OnInit {
     autoplay: {
       delay: 5000
     },
-    speed: 1500
+    speed: 1500,
+    loop: true
   };
   slideshow = new Array(12);
   playVideo = false;

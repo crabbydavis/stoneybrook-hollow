@@ -1,8 +1,8 @@
 $brown: #5A4B2D;
 
 ion-toolbar {
-    background: transparent;
-    --background: transparent;
+    --background: rgba(0, 0, 0, .5) !important;
+    box-shadow: 0 0 15px 20px #00000080 !important;
     img {
         height: 80px;
     }
@@ -17,7 +17,6 @@ ion-toolbar {
 .model {
     background-color: var(--ion-color-primary);
     text-align: center;
-    font-family: "Raleway";
     padding-top: 30px;
     padding-bottom: 30px;
     padding-left: 20px;
@@ -25,7 +24,6 @@ ion-toolbar {
     color: white;
     margin-top: 0px;
     margin-bottom: 0px;
-    font-size: 30px;
 }
 .model-white {
     @extend .model;
@@ -62,8 +60,9 @@ ion-toolbar {
 }
 .slide-container {
     position: relative;
+    background: white;
     .back {
-        color: white;
+        color: var(--ion-color-primary);
         font-size: 40px;
         position: absolute;
         z-index: 10;
@@ -71,7 +70,7 @@ ion-toolbar {
         top: calc(50% - 10px);
     }
     .forward {
-        color: white;
+        color: var(--ion-color-primary);
         font-size: 40px;
         position: absolute;
         z-index: 10;

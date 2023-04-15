@@ -1,27 +1,12 @@
-<!-- 
-  Changes for Anna once it looks how it's supposed to:
-  - Make tabs across the top lowercase
-  - Make background color white on image carosel at bottom
-  - Have medium sized font for "We advocate for childhood....."
-  - On safari the hamburger icon is green and not white
-  - Loopback on slide show images at bottom
-  - Schedule a tour button link to contact me page (lowercase laura font)
-  - Menu should be Raleway
-  - Keep dropdown for desktop under questions
-  - We can't wait to meet you shows twice on mobile under contact
-  - Take call, text, email buttons away on desktop
-  - For questions text should be raleway
-  - box around call or text goes off screen on Anna's phone
--->
-
 <ion-content>
   <div class="top">
-    <ion-toolbar class="toolbar">
+    <ion-toolbar class="toolbar hide-l">
       <img slot="start" src="assets/img/stoneybrook-logo.png">
       <ion-buttons slot="end">
         <ion-menu-button color="light" autoHide="false"></ion-menu-button>
       </ion-buttons>           
     </ion-toolbar>
+    <app-web-header class="hide-s" [transparent]="true"></app-web-header>
   </div>
   <h2 class="model">We advocate for childhood through our play-based, curiosity-led approach to education.</h2>
   <div class="video">

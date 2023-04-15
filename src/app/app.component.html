@@ -1,50 +1,30 @@
 <ion-app>
-  <ion-split-pane contentId="main-content">
-    <ion-menu side="end" contentId="main-content">
-      <ion-content>
-        <ion-menu-toggle autoHide="false">
-          <ion-item routerLink="/landing" routerLinkActive="active" routerDirection="root" detail="false">
-            <ion-label>
-              home
-            </ion-label>
-          </ion-item>
-        </ion-menu-toggle>
+  <ion-menu class="hide-l" side="end" contentId="main-content">
+    <ion-content>
+      <ion-menu-toggle autoHide="false">
+        <ion-item routerLink="/landing" routerLinkActive="active" routerDirection="root" detail="false">
+          <ion-label>
+            home
+          </ion-label>
+        </ion-item>
+      </ion-menu-toggle>
 
-        <!-- <ion-menu-toggle autoHide="false">
-          <ion-item routerLink="/about" routerLinkActive="active" routerDirection="root" detail="false">
-            <ion-icon color="primary" slot="start" name="newspaper"></ion-icon>
-            <ion-label>
-              about
-            </ion-label>
-          </ion-item>
-        </ion-menu-toggle> -->
+      <ion-menu-toggle autoHide="false">
+        <ion-item routerLink="/faq" routerLinkActive="active" routerDirection="root" detail="false">
+          <ion-label>
+            questions
+          </ion-label>
+        </ion-item>
+      </ion-menu-toggle>
 
-        <!-- <ion-menu-toggle autoHide="false">
-          <ion-item routerLink="/gallery" routerLinkActive="active" routerDirection="root" detail="false">
-            <ion-icon color="primary" slot="start" name="images"></ion-icon>
-            <ion-label>
-              philosophy
-            </ion-label>
-          </ion-item>
-        </ion-menu-toggle> -->
-
-        <ion-menu-toggle autoHide="false">
-          <ion-item routerLink="/faq" routerLinkActive="active" routerDirection="root" detail="false">
-            <ion-label>
-              questions
-            </ion-label>
-          </ion-item>
-        </ion-menu-toggle>
-
-        <ion-menu-toggle autoHide="false">
-          <ion-item routerLink="/contact" routerLinkActive="active" routerDirection="root" detail="false">
-            <ion-label>
-              contact
-            </ion-label>
-          </ion-item>
-        </ion-menu-toggle>
-      </ion-content>
-    </ion-menu>
-    <ion-router-outlet id="main-content"></ion-router-outlet>
-  </ion-split-pane>
+      <ion-menu-toggle autoHide="false">
+        <ion-item routerLink="/contact" routerLinkActive="active" routerDirection="root" detail="false">
+          <ion-label>
+            contact
+          </ion-label>
+        </ion-item>
+      </ion-menu-toggle>
+    </ion-content>
+  </ion-menu>
+  <ion-router-outlet id="main-content"></ion-router-outlet>
 </ion-app>

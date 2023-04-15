@@ -7,6 +7,7 @@ import { IonicModule } from '@ionic/angular';
 import { ContactUsPageRoutingModule } from './contact-us-routing.module';
 
 import { ContactUsPage } from './contact-us.page';
+import { ComponentsModule } from 'src/app/components/components.module';
 
 @NgModule({
   imports: [
@@ -14,7 +15,8 @@ import { ContactUsPage } from './contact-us.page';
     FormsModule,
     IonicModule,
     ReactiveFormsModule,
-    ContactUsPageRoutingModule
+    ContactUsPageRoutingModule,
+    ComponentsModule
   ],
   declarations: [ContactUsPage]
 })
