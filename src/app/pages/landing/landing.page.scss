@@ -1,8 +1,11 @@
 $brown: #5A4B2D;
 
+ion-content {
+    --background: var(--ion-color-primary-shade);
+}
+
 ion-toolbar {
-    --background: rgba(0, 0, 0, .5) !important;
-    box-shadow: 0 0 15px 20px #00000080 !important;
+    --background: #5a4b2db4 !important;
     img {
         height: 80px;
     }
@@ -15,20 +18,28 @@ ion-toolbar {
     background-size: cover;
 }
 .model {
-    background-color: var(--ion-color-primary);
-    text-align: center;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    padding-left: 20px;
-    padding-right: 20px;
-    color: white;
-    margin-top: 0px;
-    margin-bottom: 0px;
+    background-color: var(--ion-color-primary-shade);
+    display: flex;
+    justify-content: center;
+    h2 {
+        text-align: center;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        color: white;
+        max-width: 600px;
+        line-height: 1.2em;
+    }
 }
 .model-white {
     @extend .model;
     background-color: white;
-    color: black;
+    h2 {
+        color: black;
+    }
 }
 .video {
     width: 100%;
@@ -61,6 +72,7 @@ ion-toolbar {
 .slide-container {
     position: relative;
     background: white;
+    padding-bottom: 100px;
     .back {
         color: var(--ion-color-primary);
         font-size: 40px;

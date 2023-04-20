@@ -3,6 +3,7 @@ import { Component, OnInit } from '@angular/core';
 import { trigger, style, state, animate, transition, keyframes } from '@angular/animations';
 import { IonRouterOutlet, ModalController, NavController } from '@ionic/angular';
 import SwiperCore, { Autoplay, Pagination } from 'swiper';
+import { Router } from '@angular/router';
 
 SwiperCore.use([Pagination, Autoplay]);
 
@@ -43,7 +44,8 @@ export class LandingPage implements OnInit {
   constructor(
     private modalCtrl: ModalController,
     private navCtrl: NavController,
-    public routerOutlet: IonRouterOutlet
+    public routerOutlet: IonRouterOutlet,
+    private router: Router
   ) { }
 
   ngOnInit() {
@@ -63,6 +65,10 @@ export class LandingPage implements OnInit {
       cssClass: 'contact-modal'
     });
     modal.present();
+  }
+
+  goToFaq() {
+    this.router.navigateByUrl('contact');
   }
 
   showCognitiveSlides(): void {

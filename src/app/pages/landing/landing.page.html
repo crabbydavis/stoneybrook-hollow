@@ -8,7 +8,9 @@
     </ion-toolbar>
     <app-web-header class="hide-s" [transparent]="true"></app-web-header>
   </div>
-  <h2 class="model">We advocate for childhood through our play-based, curiosity-led approach to education.</h2>
+  <div class="model">
+    <h2>We advocate for childhood through our play-based, curiosity-led approach to education.</h2>
+  </div>
   <div class="video">
     <iframe *ngIf="playVideo" src="https://player.vimeo.com/video/783980160?h=6ee0d9ebc2&amp;autoplay=1" width="100%" height="100%" frameborder="0" allow="autoplay"></iframe>
     <ng-container *ngIf="!playVideo">
@@ -18,7 +20,9 @@
       </div>
     </ng-container>
   </div>
-  <h2 class="model-white">our studio</h2>
+  <div class="model-white">
+    <h2>our studio</h2>
+  </div>
   <div class="slide-container">
     <ion-icon class="back" name="chevron-back-circle-outline" tappable (click)="slideBack()"></ion-icon>
     <ion-icon class="forward" name="chevron-forward-circle-outline" tappable (click)="slideForward()"></ion-icon>
@@ -29,6 +33,6 @@
     </swiper>
   </div>
   <div class="bottom">
-    <ion-button mode="ios" color="primary">schedule a tour</ion-button>
+    <ion-button mode="ios" color="light" size="large" (click)="goToFaq()">schedule a tour</ion-button>
   </div>
 </ion-content>

@@ -3,7 +3,7 @@
     width: 100%;
     opacity: .74;
     background-image: url('../../../assets/img/contact.jpg');
-    background-position: top 0px left 0px;
+    background-position: top center;
     background-size: cover;
     position: relative;
     padding-top: 30px;
@@ -12,6 +12,7 @@
         padding: 15px;
         width: 100%;
         color: white;
+        text-align: center;
     }
     .brown-box {
         padding: 10px;
@@ -46,6 +47,7 @@
             padding: 20px;
             font-size: 1.5em;
             color: white;
+            font-family: 'Raleway';
         }
     }
 }
