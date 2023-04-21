@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+import { UntypedFormBuilder, UntypedFormGroup, Validators } from '@angular/forms';
 import { ToastController } from '@ionic/angular';
 
 import { Clipboard } from '@capacitor/clipboard';
@@ -11,11 +11,11 @@ import { Clipboard } from '@capacitor/clipboard';
 })
 export class ContactUsPage implements OnInit {
 
-  contactForm: FormGroup = new FormGroup({});
+  contactForm: UntypedFormGroup = new UntypedFormGroup({});
   emailMessage: string;
 
   constructor(
-    private fb: FormBuilder,
+    private fb: UntypedFormBuilder,
     private toasterCtrl: ToastController
   ) { }
 
