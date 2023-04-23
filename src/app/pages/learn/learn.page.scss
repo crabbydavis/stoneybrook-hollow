@@ -24,3 +24,8 @@ p {
     padding: 0px 30px;
     line-height: 1.2em;
 }
+.topics {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+}
