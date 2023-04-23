@@ -1,7 +1,7 @@
 import { ContactUsPage } from './../contact-us/contact-us.page';
-import { Component, OnInit } from '@angular/core';
+import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
 import { trigger, style, state, animate, transition, keyframes } from '@angular/animations';
-import { IonRouterOutlet, ModalController, NavController } from '@ionic/angular';
+import { IonRouterOutlet, IonicSlides, ModalController, NavController } from '@ionic/angular';
 import SwiperCore, { Autoplay, Pagination } from 'swiper';
 import { Router } from '@angular/router';
 
@@ -29,15 +29,11 @@ SwiperCore.use([Pagination, Autoplay]);
   ]
 })
 export class LandingPage implements OnInit {
+  @ViewChild('swiper')
+  swiperRef: ElementRef | undefined;
 
+  swiperModules = [IonicSlides];
   banner: { image: string }[] = [];
-  slideOpts = {
-    autoplay: {
-      delay: 5000
-    },
-    speed: 1500,
-    loop: true
-  };
   slideshow = new Array(12);
   playVideo = false;
   
@@ -71,15 +67,11 @@ export class LandingPage implements OnInit {
     this.router.navigateByUrl('contact');
   }
 
-  showCognitiveSlides(): void {
-
-  }
-
   slideBack() {
-
+    this.swiperRef?.nativeElement.swiper.slidePrev();
   }
 
   slideForward() {
-    
+    this.swiperRef?.nativeElement.swiper.slideNext();
   }
 }

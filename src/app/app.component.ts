@@ -1,8 +1,9 @@
 import { ContactUsPage } from './pages/contact-us/contact-us.page';
 import { Component, ViewEncapsulation } from '@angular/core';
-
+import { register } from 'swiper/element/bundle';
 import { Platform, ModalController } from '@ionic/angular';
 
+register();
 
 @Component({
   selector: 'app-root',

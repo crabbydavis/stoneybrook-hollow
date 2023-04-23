@@ -5,8 +5,8 @@ import { IonicModule } from '@ionic/angular';
 import { LandingPageRoutingModule } from './landing-routing.module';
 import { LandingPage } from './landing.page';
 import { DirectivesModule } from 'src/app/directives/directives.module';
-import { SwiperModule } from 'swiper/angular';
 import { ComponentsModule } from 'src/app/components/components.module';
+import { CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 
 
 @NgModule({
@@ -16,9 +16,9 @@ import { ComponentsModule } from 'src/app/components/components.module';
     IonicModule,
     LandingPageRoutingModule,
     DirectivesModule,
-    SwiperModule,
     ComponentsModule
   ],
-  declarations: [LandingPage]
+  declarations: [LandingPage],
+  schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })
 export class LandingPageModule {}

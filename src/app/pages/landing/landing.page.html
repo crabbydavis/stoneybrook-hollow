@@ -26,11 +26,11 @@
   <div class="slide-container">
     <ion-icon class="back" name="chevron-back-circle-outline" tappable (click)="slideBack()"></ion-icon>
     <ion-icon class="forward" name="chevron-forward-circle-outline" tappable (click)="slideForward()"></ion-icon>
-    <swiper [pagination]="true" [config]="slideOpts">
-      <ng-template swiperSlide *ngFor="let pic of slideshow; let index = index">
+    <swiper-container #swiper [modules]="swiperModules" pagination="true" speed="1500" loop="true" autoplay="true">
+      <swiper-slide *ngFor="let pic of slideshow; let index = index">
         <img src="assets/img/slideshow/{{index + 1}}.jpg">
-      </ng-template>
-    </swiper>
+      </swiper-slide>
+    </swiper-container>
   </div>
   <div class="bottom">
     <ion-button mode="ios" color="light" size="large" (click)="goToFaq()">schedule a tour</ion-button>

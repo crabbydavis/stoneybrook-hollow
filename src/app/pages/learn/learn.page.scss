@@ -1,0 +1,26 @@
+h1 {
+    background: var(--ion-color-secondary);
+    color: white;
+    text-align: center;
+    padding: 30px 0px;
+    font-size: xx-large !important;
+}
+h2 {
+    background: var(--ion-color-primary-shade);
+    color: white;
+    text-align: center;
+    padding: 20px 0px;
+    margin: 0px;
+}
+section {
+    display: flex;
+    align-items: center;
+    img {
+        width: 50%;
+    }
+}
+p {
+    font-size: x-large;
+    padding: 0px 30px;
+    line-height: 1.2em;
+}
