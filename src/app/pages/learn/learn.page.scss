@@ -12,11 +12,23 @@ h2 {
     padding: 20px 0px;
     margin: 0px;
 }
+.explanation {
+    width: 100%;
+}
 section {
     display: flex;
     align-items: center;
+    font-family: 'raleway';
     img {
         width: 50%;
+    }
+    .first-pic {
+        width: 100%;
+        max-height: 800px;
+        min-height: 200px;
+        background-image: url('/assets/img/learn-main.jpg');
+        background-position: center;
+        background-size: cover;
     }
 }
 p {
@@ -27,5 +39,6 @@ p {
 .topics {
     display: flex;
     flex-direction: column;
-    justify-content: center;    
+    justify-content: center;
+    margin-bottom: 40px;
 }
