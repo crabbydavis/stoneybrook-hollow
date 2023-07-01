@@ -1,0 +1,20 @@
+h2 {
+    background: var(--ion-color-primary-shade);
+    color: white;
+    text-align: center;
+    padding: 20px 0px;
+    margin: 0px;
+}
+section {
+    display: flex;
+    align-items: center;
+    font-family: 'raleway';
+    img {
+        width: 50%;
+    }
+}
+p {
+    font-size: large;
+    padding: 0px 30px;
+    line-height: 1.2em;
+}
