@@ -18,11 +18,21 @@ ion-content {
     }
   }
   ion-button {
-    font-family: "Raleway";
+    font-family: "Raleway" !important;
   }
   ion-title {
     font-family: 'Raleway';
   }
+
+ion-card {
+  ion-card-title {
+    font-family: 'Dawning of a New Day';
+    font-size: xx-large;
+  }
+  ion-card-subtitle {
+    font-family: 'Lora';
+  }
+}
 
 h1 {
     font-family: "Lora";

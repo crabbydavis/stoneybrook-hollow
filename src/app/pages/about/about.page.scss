@@ -1,3 +1,11 @@
+h1 {
+    background: var(--ion-color-secondary);
+    color: white;
+    text-align: center;
+    padding: 30px 0px;
+    font-size: xx-large !important;
+    margin: 0px;
+}
 h2 {
     background: var(--ion-color-primary-shade);
     color: white;
@@ -17,4 +25,7 @@ p {
     font-size: large;
     padding: 0px 30px;
     line-height: 1.2em;
+}
+ion-card {
+    text-align: center;
 }
