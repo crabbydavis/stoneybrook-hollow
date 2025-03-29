@@ -23,8 +23,8 @@ const routes = [{
   component: _about_page__WEBPACK_IMPORTED_MODULE_0__.AboutPage
 }];
 class AboutPageRoutingModule {
-  static #_ = (() => this.ɵfac = function AboutPageRoutingModule_Factory(t) {
-    return new (t || AboutPageRoutingModule)();
+  static #_ = (() => this.ɵfac = function AboutPageRoutingModule_Factory(__ngFactoryType__) {
+    return new (__ngFactoryType__ || AboutPageRoutingModule)();
   })();
   static #_2 = (() => this.ɵmod = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineNgModule"]({
     type: AboutPageRoutingModule
@@ -67,8 +67,8 @@ __webpack_require__.r(__webpack_exports__);
 
 
 class AboutPageModule {
-  static #_ = (() => this.ɵfac = function AboutPageModule_Factory(t) {
-    return new (t || AboutPageModule)();
+  static #_ = (() => this.ɵfac = function AboutPageModule_Factory(__ngFactoryType__) {
+    return new (__ngFactoryType__ || AboutPageModule)();
   })();
   static #_2 = (() => this.ɵmod = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵdefineNgModule"]({
     type: AboutPageModule
@@ -110,8 +110,8 @@ class AboutPage {
       behavior: 'smooth'
     });
   }
-  static #_ = (() => this.ɵfac = function AboutPage_Factory(t) {
-    return new (t || AboutPage)();
+  static #_ = (() => this.ɵfac = function AboutPage_Factory(__ngFactoryType__) {
+    return new (__ngFactoryType__ || AboutPage)();
   })();
   static #_2 = (() => this.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineComponent"]({
     type: AboutPage,

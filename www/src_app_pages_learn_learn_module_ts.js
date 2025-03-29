@@ -23,8 +23,8 @@ const routes = [{
   component: _learn_page__WEBPACK_IMPORTED_MODULE_0__.LearnPage
 }];
 class LearnPageRoutingModule {
-  static #_ = (() => this.ɵfac = function LearnPageRoutingModule_Factory(t) {
-    return new (t || LearnPageRoutingModule)();
+  static #_ = (() => this.ɵfac = function LearnPageRoutingModule_Factory(__ngFactoryType__) {
+    return new (__ngFactoryType__ || LearnPageRoutingModule)();
   })();
   static #_2 = (() => this.ɵmod = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineNgModule"]({
     type: LearnPageRoutingModule
@@ -67,8 +67,8 @@ __webpack_require__.r(__webpack_exports__);
 
 
 class LearnPageModule {
-  static #_ = (() => this.ɵfac = function LearnPageModule_Factory(t) {
-    return new (t || LearnPageModule)();
+  static #_ = (() => this.ɵfac = function LearnPageModule_Factory(__ngFactoryType__) {
+    return new (__ngFactoryType__ || LearnPageModule)();
   })();
   static #_2 = (() => this.ɵmod = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵdefineNgModule"]({
     type: LearnPageModule
@@ -110,8 +110,8 @@ class LearnPage {
       behavior: 'smooth'
     });
   }
-  static #_ = (() => this.ɵfac = function LearnPage_Factory(t) {
-    return new (t || LearnPage)();
+  static #_ = (() => this.ɵfac = function LearnPage_Factory(__ngFactoryType__) {
+    return new (__ngFactoryType__ || LearnPage)();
   })();
   static #_2 = (() => this.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineComponent"]({
     type: LearnPage,

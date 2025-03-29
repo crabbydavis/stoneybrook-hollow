@@ -20,8 +20,8 @@ __webpack_require__.r(__webpack_exports__);
 
 
 class ComponentsModule {
-  static #_ = (() => this.ɵfac = function ComponentsModule_Factory(t) {
-    return new (t || ComponentsModule)();
+  static #_ = (() => this.ɵfac = function ComponentsModule_Factory(__ngFactoryType__) {
+    return new (__ngFactoryType__ || ComponentsModule)();
   })();
   static #_2 = (() => this.ɵmod = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵdefineNgModule"]({
     type: ComponentsModule
@@ -55,8 +55,8 @@ __webpack_require__.r(__webpack_exports__);
 
 
 class LoadingComponent {
-  static #_ = (() => this.ɵfac = function LoadingComponent_Factory(t) {
-    return new (t || LoadingComponent)();
+  static #_ = (() => this.ɵfac = function LoadingComponent_Factory(__ngFactoryType__) {
+    return new (__ngFactoryType__ || LoadingComponent)();
   })();
   static #_2 = (() => this.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({
     type: LoadingComponent,

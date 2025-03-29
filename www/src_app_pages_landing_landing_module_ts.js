@@ -16,8 +16,8 @@ __webpack_require__.r(__webpack_exports__);
 
 
 class DirectivesModule {
-  static #_ = (() => this.ɵfac = function DirectivesModule_Factory(t) {
-    return new (t || DirectivesModule)();
+  static #_ = (() => this.ɵfac = function DirectivesModule_Factory(__ngFactoryType__) {
+    return new (__ngFactoryType__ || DirectivesModule)();
   })();
   static #_2 = (() => this.ɵmod = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineNgModule"]({
     type: DirectivesModule
@@ -70,8 +70,8 @@ class IsVisibleDirective {
   checkIfIntersecting(entry) {
     return entry.isIntersecting && entry.target === this.element.nativeElement;
   }
-  static #_ = (() => this.ɵfac = function IsVisibleDirective_Factory(t) {
-    return new (t || IsVisibleDirective)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_core__WEBPACK_IMPORTED_MODULE_0__.ElementRef));
+  static #_ = (() => this.ɵfac = function IsVisibleDirective_Factory(__ngFactoryType__) {
+    return new (__ngFactoryType__ || IsVisibleDirective)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_core__WEBPACK_IMPORTED_MODULE_0__.ElementRef));
   })();
   static #_2 = (() => this.ɵdir = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineDirective"]({
     type: IsVisibleDirective,
@@ -106,8 +106,8 @@ const routes = [{
   component: _landing_page__WEBPACK_IMPORTED_MODULE_0__.LandingPage
 }];
 class LandingPageRoutingModule {
-  static #_ = (() => this.ɵfac = function LandingPageRoutingModule_Factory(t) {
-    return new (t || LandingPageRoutingModule)();
+  static #_ = (() => this.ɵfac = function LandingPageRoutingModule_Factory(__ngFactoryType__) {
+    return new (__ngFactoryType__ || LandingPageRoutingModule)();
   })();
   static #_2 = (() => this.ɵmod = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineNgModule"]({
     type: LandingPageRoutingModule
@@ -152,8 +152,8 @@ __webpack_require__.r(__webpack_exports__);
 
 
 class LandingPageModule {
-  static #_ = (() => this.ɵfac = function LandingPageModule_Factory(t) {
-    return new (t || LandingPageModule)();
+  static #_ = (() => this.ɵfac = function LandingPageModule_Factory(__ngFactoryType__) {
+    return new (__ngFactoryType__ || LandingPageModule)();
   })();
   static #_2 = (() => this.ɵmod = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵdefineNgModule"]({
     type: LandingPageModule
@@ -275,8 +275,8 @@ class LandingPage {
   slideForward() {
     this.swiperRef?.nativeElement.swiper.slideNext();
   }
-  static #_ = (() => this.ɵfac = function LandingPage_Factory(t) {
-    return new (t || LandingPage)(_angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵdirectiveInject"](_ionic_angular__WEBPACK_IMPORTED_MODULE_6__.ModalController), _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵdirectiveInject"](_ionic_angular__WEBPACK_IMPORTED_MODULE_6__.NavController), _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵdirectiveInject"](_ionic_angular__WEBPACK_IMPORTED_MODULE_6__.IonRouterOutlet), _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_7__.Router));
+  static #_ = (() => this.ɵfac = function LandingPage_Factory(__ngFactoryType__) {
+    return new (__ngFactoryType__ || LandingPage)(_angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵdirectiveInject"](_ionic_angular__WEBPACK_IMPORTED_MODULE_6__.ModalController), _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵdirectiveInject"](_ionic_angular__WEBPACK_IMPORTED_MODULE_6__.NavController), _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵdirectiveInject"](_ionic_angular__WEBPACK_IMPORTED_MODULE_6__.IonRouterOutlet), _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_7__.Router));
   })();
   static #_2 = (() => this.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵdefineComponent"]({
     type: LandingPage,

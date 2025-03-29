@@ -23,8 +23,8 @@ const routes = [{
   component: _faq_page__WEBPACK_IMPORTED_MODULE_0__.FaqPage
 }];
 class FaqPageRoutingModule {
-  static #_ = (() => this.ɵfac = function FaqPageRoutingModule_Factory(t) {
-    return new (t || FaqPageRoutingModule)();
+  static #_ = (() => this.ɵfac = function FaqPageRoutingModule_Factory(__ngFactoryType__) {
+    return new (__ngFactoryType__ || FaqPageRoutingModule)();
   })();
   static #_2 = (() => this.ɵmod = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineNgModule"]({
     type: FaqPageRoutingModule
@@ -67,8 +67,8 @@ __webpack_require__.r(__webpack_exports__);
 
 
 class FaqPageModule {
-  static #_ = (() => this.ɵfac = function FaqPageModule_Factory(t) {
-    return new (t || FaqPageModule)();
+  static #_ = (() => this.ɵfac = function FaqPageModule_Factory(__ngFactoryType__) {
+    return new (__ngFactoryType__ || FaqPageModule)();
   })();
   static #_2 = (() => this.ɵmod = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵdefineNgModule"]({
     type: FaqPageModule
@@ -188,8 +188,8 @@ class FaqPage {
       }
     }, 400);
   }
-  static #_ = (() => this.ɵfac = function FaqPage_Factory(t) {
-    return new (t || FaqPage)();
+  static #_ = (() => this.ɵfac = function FaqPage_Factory(__ngFactoryType__) {
+    return new (__ngFactoryType__ || FaqPage)();
   })();
   static #_2 = (() => this.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineComponent"]({
     type: FaqPage,

@@ -23,8 +23,8 @@ const routes = [{
   component: _contact_us_page__WEBPACK_IMPORTED_MODULE_0__.ContactUsPage
 }];
 class ContactUsPageRoutingModule {
-  static #_ = (() => this.ɵfac = function ContactUsPageRoutingModule_Factory(t) {
-    return new (t || ContactUsPageRoutingModule)();
+  static #_ = (() => this.ɵfac = function ContactUsPageRoutingModule_Factory(__ngFactoryType__) {
+    return new (__ngFactoryType__ || ContactUsPageRoutingModule)();
   })();
   static #_2 = (() => this.ɵmod = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineNgModule"]({
     type: ContactUsPageRoutingModule
@@ -67,8 +67,8 @@ __webpack_require__.r(__webpack_exports__);
 
 
 class ContactUsPageModule {
-  static #_ = (() => this.ɵfac = function ContactUsPageModule_Factory(t) {
-    return new (t || ContactUsPageModule)();
+  static #_ = (() => this.ɵfac = function ContactUsPageModule_Factory(__ngFactoryType__) {
+    return new (__ngFactoryType__ || ContactUsPageModule)();
   })();
   static #_2 = (() => this.ɵmod = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵdefineNgModule"]({
     type: ContactUsPageModule
