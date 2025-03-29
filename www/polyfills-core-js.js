@@ -1,6 +1,6 @@
 (self["webpackChunkapp"] = self["webpackChunkapp"] || []).push([["polyfills-core-js"],{
 
-/***/ 7320:
+/***/ 2766:
 /*!****************************************************************!*\
   !*** ./node_modules/@ionic/core/dist/esm/polyfills/core-js.js ***!
   \****************************************************************/
@@ -3075,7 +3075,7 @@
             sticky: e
           }), u;
         }, O = function (t) {
-          (t in w) || u(w, t, {
+          t in w || u(w, t, {
             configurable: !0,
             get: function () {
               return y[t];
@@ -5165,7 +5165,7 @@
 !function (t) {
   "use strict";
 
-  var e = ("URLSearchParams" in self),
+  var e = "URLSearchParams" in self,
     r = "Symbol" in self && "iterator" in Symbol,
     o = "FileReader" in self && "Blob" in self && function () {
       try {
@@ -5174,8 +5174,8 @@
         return !1;
       }
     }(),
-    n = ("FormData" in self),
-    i = ("ArrayBuffer" in self);
+    n = "FormData" in self,
+    i = "ArrayBuffer" in self;
   if (i) var s = ["[object Int8Array]", "[object Uint8Array]", "[object Uint8ClampedArray]", "[object Int16Array]", "[object Uint16Array]", "[object Int32Array]", "[object Uint32Array]", "[object Float32Array]", "[object Float64Array]"],
     a = ArrayBuffer.isView || function (t) {
       return t && s.indexOf(Object.prototype.toString.call(t)) > -1;
