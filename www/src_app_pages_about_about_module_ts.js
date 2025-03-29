@@ -23,15 +23,15 @@ const routes = [{
   component: _about_page__WEBPACK_IMPORTED_MODULE_0__.AboutPage
 }];
 class AboutPageRoutingModule {
-  static #_ = this.ɵfac = function AboutPageRoutingModule_Factory(t) {
+  static #_ = (() => this.ɵfac = function AboutPageRoutingModule_Factory(t) {
     return new (t || AboutPageRoutingModule)();
-  };
-  static #_2 = this.ɵmod = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineNgModule"]({
+  })();
+  static #_2 = (() => this.ɵmod = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineNgModule"]({
     type: AboutPageRoutingModule
-  });
-  static #_3 = this.ɵinj = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineInjector"]({
+  }))();
+  static #_3 = (() => this.ɵinj = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineInjector"]({
     imports: [_angular_router__WEBPACK_IMPORTED_MODULE_2__.RouterModule.forChild(routes), _angular_router__WEBPACK_IMPORTED_MODULE_2__.RouterModule]
-  });
+  }))();
 }
 (function () {
   (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsetNgModuleScope"](AboutPageRoutingModule, {
@@ -67,15 +67,15 @@ __webpack_require__.r(__webpack_exports__);
 
 
 class AboutPageModule {
-  static #_ = this.ɵfac = function AboutPageModule_Factory(t) {
+  static #_ = (() => this.ɵfac = function AboutPageModule_Factory(t) {
     return new (t || AboutPageModule)();
-  };
-  static #_2 = this.ɵmod = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵdefineNgModule"]({
+  })();
+  static #_2 = (() => this.ɵmod = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵdefineNgModule"]({
     type: AboutPageModule
-  });
-  static #_3 = this.ɵinj = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵdefineInjector"]({
+  }))();
+  static #_3 = (() => this.ɵinj = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵdefineInjector"]({
     imports: [_angular_common__WEBPACK_IMPORTED_MODULE_4__.CommonModule, _angular_forms__WEBPACK_IMPORTED_MODULE_5__.FormsModule, _ionic_angular__WEBPACK_IMPORTED_MODULE_6__.IonicModule, _about_routing_module__WEBPACK_IMPORTED_MODULE_0__.AboutPageRoutingModule, src_app_components_components_module__WEBPACK_IMPORTED_MODULE_2__.ComponentsModule]
-  });
+  }))();
 }
 (function () {
   (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵsetNgModuleScope"](AboutPageModule, {
@@ -110,102 +110,102 @@ class AboutPage {
       behavior: 'smooth'
     });
   }
-  static #_ = this.ɵfac = function AboutPage_Factory(t) {
+  static #_ = (() => this.ɵfac = function AboutPage_Factory(t) {
     return new (t || AboutPage)();
-  };
-  static #_2 = this.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineComponent"]({
+  })();
+  static #_2 = (() => this.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineComponent"]({
     type: AboutPage,
     selectors: [["app-about"]],
     decls: 118,
     vars: 0,
-    consts: [[1, "hide-l"], ["slot", "end"], ["color", "light", "autoHide", "false"], [1, "hide-s"], ["sizeXs", "12", "sizeSm", "6", "sizeMd", "6", "sizeLg", "3", "sizeXl", "3"], ["alt", "Miss Anna portrait", "src", "assets/img/about/anna.png"], ["color", "seconary", "fill", "clear", 3, "click"], ["alt", "Miss Kait portrait", "src", "assets/img/about/kait.png"], ["alt", "Miss Steph portrait", "src", "assets/img/about/steph.png"], ["alt", "Miss Aubrie portrait", "src", "assets/img/about/aubrie.jpg"], ["anna", ""], ["src", "assets/img/about/anna.png", 1, "hide-l"], ["src", "assets/img/about/anna.png", 1, "hide-s"], ["kait", ""], ["src", "assets/img/about/kait.png", 1, "hide-l"], ["src", "assets/img/about/kait.png", 1, "hide-s"], ["steph", ""], ["src", "assets/img/about/steph.png", 1, "hide-l"], ["src", "assets/img/about/steph.png", 1, "hide-s"], ["aubrie", ""], ["src", "assets/img/about/aubrie.jpg", 1, "hide-l"], ["src", "assets/img/about/aubrie.jpg", 1, "hide-s"]],
+    consts: [["anna", ""], ["kait", ""], ["steph", ""], ["aubrie", ""], [1, "hide-l"], ["slot", "end"], ["color", "light", "autoHide", "false"], [1, "hide-s"], ["sizeXs", "12", "sizeSm", "6", "sizeMd", "6", "sizeLg", "3", "sizeXl", "3"], ["alt", "Miss Anna portrait", "src", "assets/img/about/anna.png"], ["color", "seconary", "fill", "clear", 3, "click"], ["alt", "Miss Kait portrait", "src", "assets/img/about/kait.png"], ["alt", "Miss Steph portrait", "src", "assets/img/about/steph.png"], ["alt", "Miss Aubrie portrait", "src", "assets/img/about/aubrie.jpg"], ["src", "assets/img/about/anna.png", 1, "hide-l"], ["src", "assets/img/about/anna.png", 1, "hide-s"], ["src", "assets/img/about/kait.png", 1, "hide-l"], ["src", "assets/img/about/kait.png", 1, "hide-s"], ["src", "assets/img/about/steph.png", 1, "hide-l"], ["src", "assets/img/about/steph.png", 1, "hide-s"], ["src", "assets/img/about/aubrie.jpg", 1, "hide-l"], ["src", "assets/img/about/aubrie.jpg", 1, "hide-s"]],
     template: function AboutPage_Template(rf, ctx) {
       if (rf & 1) {
-        const _r4 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵgetCurrentView"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "ion-header", 0)(1, "ion-toolbar")(2, "ion-title");
+        const _r1 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵgetCurrentView"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "ion-header", 4)(1, "ion-toolbar")(2, "ion-title");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](3, "about");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](4, "ion-buttons", 1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](5, "ion-menu-button", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](4, "ion-buttons", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](5, "ion-menu-button", 6);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()()();
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](6, "ion-content");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](7, "app-web-header", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](7, "app-web-header", 7);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](8, "h1");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](9, "our team");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](10, "ion-grid")(11, "ion-row")(12, "ion-col", 4)(13, "ion-card");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](14, "img", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](10, "ion-grid")(11, "ion-row")(12, "ion-col", 8)(13, "ion-card");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](14, "img", 9);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](15, "ion-card-header")(16, "ion-card-title");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](17, "Miss Anna");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](18, "ion-card-subtitle");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](19, "Owner & Teacher");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](20, "ion-button", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](20, "ion-button", 10);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("click", function AboutPage_Template_ion_button_click_20_listener() {
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵrestoreView"](_r4);
-          const _r0 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵreference"](53);
-          return _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵresetView"](ctx.scroll(_r0));
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵrestoreView"](_r1);
+          const anna_r2 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵreference"](53);
+          return _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵresetView"](ctx.scroll(anna_r2));
         });
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](21, "Read bio");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](22, "ion-col", 4)(23, "ion-card");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](24, "img", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](22, "ion-col", 8)(23, "ion-card");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](24, "img", 11);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](25, "ion-card-header")(26, "ion-card-title");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](27, "Miss Kait");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](28, "ion-card-subtitle");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](29, "Teacher");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](30, "ion-button", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](30, "ion-button", 10);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("click", function AboutPage_Template_ion_button_click_30_listener() {
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵrestoreView"](_r4);
-          const _r1 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵreference"](71);
-          return _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵresetView"](ctx.scroll(_r1));
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵrestoreView"](_r1);
+          const kait_r3 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵreference"](71);
+          return _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵresetView"](ctx.scroll(kait_r3));
         });
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](31, "Read bio");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](32, "ion-col", 4)(33, "ion-card");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](34, "img", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](32, "ion-col", 8)(33, "ion-card");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](34, "img", 12);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](35, "ion-card-header")(36, "ion-card-title");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](37, "Miss Steph");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](38, "ion-card-subtitle");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](39, "Teacher");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](40, "ion-button", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](40, "ion-button", 10);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("click", function AboutPage_Template_ion_button_click_40_listener() {
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵrestoreView"](_r4);
-          const _r2 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵreference"](87);
-          return _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵresetView"](ctx.scroll(_r2));
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵrestoreView"](_r1);
+          const steph_r4 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵreference"](87);
+          return _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵresetView"](ctx.scroll(steph_r4));
         });
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](41, "read bio");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](42, "ion-col", 4)(43, "ion-card");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](44, "img", 9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](42, "ion-col", 8)(43, "ion-card");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](44, "img", 13);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](45, "ion-card-header")(46, "ion-card-title");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](47, "Miss Aubrie");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](48, "ion-card-subtitle");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](49, "Teacher");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](50, "ion-button", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](50, "ion-button", 10);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("click", function AboutPage_Template_ion_button_click_50_listener() {
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵrestoreView"](_r4);
-          const _r3 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵreference"](103);
-          return _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵresetView"](ctx.scroll(_r3));
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵrestoreView"](_r1);
+          const aubrie_r5 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵreference"](103);
+          return _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵresetView"](ctx.scroll(aubrie_r5));
         });
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](51, "read bio");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()()()()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](52, "h2", null, 10);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](52, "h2", null, 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](54, " Miss Anna");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](55, "br");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](56, "small");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](57, "Owner & Teacher");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](58, "img", 11);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](58, "img", 14);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](59, "section");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](60, "img", 12);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](60, "img", 15);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](61, "div")(62, "p");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](63, "Anna spent her childhood in the rural outskirts of Grantsville, Utah, where she spent hours wrapped up in elaborate imaginative play, usually involving some combination of Barbie dolls, cardboard, and her mom\u2019s fabric box.");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
@@ -218,13 +218,13 @@ class AboutPage {
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](68, "p");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](69, "She now resides in Kaysville, with her husband, Davis, and her two young children. They love trying new foods, playing board games, tackling home renovation projects and having impassioned conversations about their dreams!");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](70, "h2", null, 13);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](70, "h2", null, 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](72, " Miss Kait");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](73, "br");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](74, "small");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](75, "Teacher");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](76, "img", 14);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](76, "img", 16);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](77, "section")(78, "div")(79, "p");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](80, "Kaitlin spent her childhood helping her mom in her reading classroom, collecting beanie babies, and dreaming up new adventures every summer in the mountains at her family cabin. It was Narnia-themed - paving the way for lots of magic!");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
@@ -234,17 +234,17 @@ class AboutPage {
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](83, "p");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](84, "Kait is passionate about the outdoors, music and nutrition. In her spare time you will find her attempting not to kill her sourdough starter (again), reading, and making memories with her husband, two children, and dog, Poppy.");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](85, "img", 15);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](85, "img", 17);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](86, "h2", null, 16);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](86, "h2", null, 2);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](88, " Miss Steph");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](89, "br");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](90, "small");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](91, "Teacher");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](92, "img", 17);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](92, "img", 18);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](93, "section");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](94, "img", 18);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](94, "img", 19);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](95, "div")(96, "p");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](97, "Stephanie spent her childhood climbing trees, making gourmet dinners from bark, grass and rocks and pretending her bunk bed was a covered wagon. She developed a love for little kids early on and spent many hours babysitting and playing with little siblings and cousins.");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
@@ -254,7 +254,7 @@ class AboutPage {
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](100, "p");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](101, "She is happiest reading piles of picture books in a hammock with one or more children on top of her, exploring nature through the eyes of her kids and taking pictures as they create the mud pie dinners she was once so fond of. She can't wait to join the Stoneybrook Hollow team and continue to experience the wonder of children learning and exploring the world through play.");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](102, "h2", null, 19);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](102, "h2", null, 3);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](104, " Miss Aubrie");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](105, "br");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](106, "small");
@@ -275,8 +275,8 @@ class AboutPage {
       }
     },
     dependencies: [_ionic_angular__WEBPACK_IMPORTED_MODULE_2__.IonButton, _ionic_angular__WEBPACK_IMPORTED_MODULE_2__.IonButtons, _ionic_angular__WEBPACK_IMPORTED_MODULE_2__.IonCard, _ionic_angular__WEBPACK_IMPORTED_MODULE_2__.IonCardHeader, _ionic_angular__WEBPACK_IMPORTED_MODULE_2__.IonCardSubtitle, _ionic_angular__WEBPACK_IMPORTED_MODULE_2__.IonCardTitle, _ionic_angular__WEBPACK_IMPORTED_MODULE_2__.IonCol, _ionic_angular__WEBPACK_IMPORTED_MODULE_2__.IonContent, _ionic_angular__WEBPACK_IMPORTED_MODULE_2__.IonGrid, _ionic_angular__WEBPACK_IMPORTED_MODULE_2__.IonHeader, _ionic_angular__WEBPACK_IMPORTED_MODULE_2__.IonMenuButton, _ionic_angular__WEBPACK_IMPORTED_MODULE_2__.IonRow, _ionic_angular__WEBPACK_IMPORTED_MODULE_2__.IonTitle, _ionic_angular__WEBPACK_IMPORTED_MODULE_2__.IonToolbar, _components_web_header_web_header_component__WEBPACK_IMPORTED_MODULE_0__.WebHeaderComponent],
-    styles: ["h1[_ngcontent-%COMP%] {\n  background: var(--ion-color-secondary);\n  color: white;\n  text-align: center;\n  padding: 30px 0px;\n  margin: 0px;\n}\n\nh2[_ngcontent-%COMP%] {\n  background: var(--ion-color-primary-shade);\n  color: white;\n  text-align: center;\n  padding: 20px 0px;\n  margin: 0px;\n  font-family: \"Dawning of a New Day\";\n  font-size: 2.5em;\n}\nh2[_ngcontent-%COMP%]   small[_ngcontent-%COMP%] {\n  font-family: \"Lora\";\n  font-size: 0.6em;\n}\n\nsection[_ngcontent-%COMP%] {\n  display: flex;\n  align-items: center;\n  font-family: \"raleway\";\n}\nsection[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  width: 50%;\n}\n\np[_ngcontent-%COMP%] {\n  font-size: large;\n  padding: 0px 30px;\n  line-height: 1.2em;\n}\n\nion-card[_ngcontent-%COMP%] {\n  text-align: center;\n}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9hcHAvcGFnZXMvYWJvdXQvYWJvdXQucGFnZS5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0ksc0NBQUE7RUFDQSxZQUFBO0VBQ0Esa0JBQUE7RUFDQSxpQkFBQTtFQUNBLFdBQUE7QUFDSjs7QUFDQTtFQUNJLDBDQUFBO0VBQ0EsWUFBQTtFQUNBLGtCQUFBO0VBQ0EsaUJBQUE7RUFDQSxXQUFBO0VBQ0EsbUNBQUE7RUFDQSxnQkFBQTtBQUVKO0FBREk7RUFDSSxtQkFBQTtFQUNBLGdCQUFBO0FBR1I7O0FBQUE7RUFDSSxhQUFBO0VBQ0EsbUJBQUE7RUFDQSxzQkFBQTtBQUdKO0FBRkk7RUFDSSxVQUFBO0FBSVI7O0FBREE7RUFDSSxnQkFBQTtFQUNBLGlCQUFBO0VBQ0Esa0JBQUE7QUFJSjs7QUFGQTtFQUNJLGtCQUFBO0FBS0oiLCJzb3VyY2VzQ29udGVudCI6WyJoMSB7XG4gICAgYmFja2dyb3VuZDogdmFyKC0taW9uLWNvbG9yLXNlY29uZGFyeSk7XG4gICAgY29sb3I6IHdoaXRlO1xuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcbiAgICBwYWRkaW5nOiAzMHB4IDBweDtcbiAgICBtYXJnaW46IDBweDtcbn1cbmgyIHtcbiAgICBiYWNrZ3JvdW5kOiB2YXIoLS1pb24tY29sb3ItcHJpbWFyeS1zaGFkZSk7XG4gICAgY29sb3I6IHdoaXRlO1xuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcbiAgICBwYWRkaW5nOiAyMHB4IDBweDtcbiAgICBtYXJnaW46IDBweDtcbiAgICBmb250LWZhbWlseTogJ0Rhd25pbmcgb2YgYSBOZXcgRGF5JztcbiAgICBmb250LXNpemU6IDIuNWVtO1xuICAgIHNtYWxsIHtcbiAgICAgICAgZm9udC1mYW1pbHk6ICdMb3JhJztcbiAgICAgICAgZm9udC1zaXplOiAuNmVtO1xuICAgIH1cbn1cbnNlY3Rpb24ge1xuICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgYWxpZ24taXRlbXM6IGNlbnRlcjtcbiAgICBmb250LWZhbWlseTogJ3JhbGV3YXknO1xuICAgIGltZyB7XG4gICAgICAgIHdpZHRoOiA1MCU7XG4gICAgfVxufVxucCB7XG4gICAgZm9udC1zaXplOiBsYXJnZTtcbiAgICBwYWRkaW5nOiAwcHggMzBweDtcbiAgICBsaW5lLWhlaWdodDogMS4yZW07XG59XG5pb24tY2FyZCB7XG4gICAgdGV4dC1hbGlnbjogY2VudGVyO1xufSJdLCJzb3VyY2VSb290IjoiIn0= */"]
-  });
+    styles: ["h1[_ngcontent-%COMP%] {\n  background: var(--ion-color-secondary);\n  color: white;\n  text-align: center;\n  padding: 30px 0px;\n  margin: 0px;\n}\n\nh2[_ngcontent-%COMP%] {\n  background: var(--ion-color-primary-shade);\n  color: white;\n  text-align: center;\n  padding: 20px 0px;\n  margin: 0px;\n  font-family: \"Dawning of a New Day\";\n  font-size: 2.5em;\n}\nh2[_ngcontent-%COMP%]   small[_ngcontent-%COMP%] {\n  font-family: \"Lora\";\n  font-size: 0.6em;\n}\n\nsection[_ngcontent-%COMP%] {\n  display: flex;\n  align-items: center;\n  font-family: \"raleway\";\n}\nsection[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  width: 50%;\n}\n\np[_ngcontent-%COMP%] {\n  font-size: large;\n  padding: 0px 30px;\n  line-height: 1.2em;\n}\n\nion-card[_ngcontent-%COMP%] {\n  text-align: center;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImFib3V0LnBhZ2Uuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLHNDQUFBO0VBQ0EsWUFBQTtFQUNBLGtCQUFBO0VBQ0EsaUJBQUE7RUFDQSxXQUFBO0FBQ0o7O0FBQ0E7RUFDSSwwQ0FBQTtFQUNBLFlBQUE7RUFDQSxrQkFBQTtFQUNBLGlCQUFBO0VBQ0EsV0FBQTtFQUNBLG1DQUFBO0VBQ0EsZ0JBQUE7QUFFSjtBQURJO0VBQ0ksbUJBQUE7RUFDQSxnQkFBQTtBQUdSOztBQUFBO0VBQ0ksYUFBQTtFQUNBLG1CQUFBO0VBQ0Esc0JBQUE7QUFHSjtBQUZJO0VBQ0ksVUFBQTtBQUlSOztBQURBO0VBQ0ksZ0JBQUE7RUFDQSxpQkFBQTtFQUNBLGtCQUFBO0FBSUo7O0FBRkE7RUFDSSxrQkFBQTtBQUtKIiwiZmlsZSI6ImFib3V0LnBhZ2Uuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbImgxIHtcbiAgICBiYWNrZ3JvdW5kOiB2YXIoLS1pb24tY29sb3Itc2Vjb25kYXJ5KTtcbiAgICBjb2xvcjogd2hpdGU7XG4gICAgdGV4dC1hbGlnbjogY2VudGVyO1xuICAgIHBhZGRpbmc6IDMwcHggMHB4O1xuICAgIG1hcmdpbjogMHB4O1xufVxuaDIge1xuICAgIGJhY2tncm91bmQ6IHZhcigtLWlvbi1jb2xvci1wcmltYXJ5LXNoYWRlKTtcbiAgICBjb2xvcjogd2hpdGU7XG4gICAgdGV4dC1hbGlnbjogY2VudGVyO1xuICAgIHBhZGRpbmc6IDIwcHggMHB4O1xuICAgIG1hcmdpbjogMHB4O1xuICAgIGZvbnQtZmFtaWx5OiAnRGF3bmluZyBvZiBhIE5ldyBEYXknO1xuICAgIGZvbnQtc2l6ZTogMi41ZW07XG4gICAgc21hbGwge1xuICAgICAgICBmb250LWZhbWlseTogJ0xvcmEnO1xuICAgICAgICBmb250LXNpemU6IC42ZW07XG4gICAgfVxufVxuc2VjdGlvbiB7XG4gICAgZGlzcGxheTogZmxleDtcbiAgICBhbGlnbi1pdGVtczogY2VudGVyO1xuICAgIGZvbnQtZmFtaWx5OiAncmFsZXdheSc7XG4gICAgaW1nIHtcbiAgICAgICAgd2lkdGg6IDUwJTtcbiAgICB9XG59XG5wIHtcbiAgICBmb250LXNpemU6IGxhcmdlO1xuICAgIHBhZGRpbmc6IDBweCAzMHB4O1xuICAgIGxpbmUtaGVpZ2h0OiAxLjJlbTtcbn1cbmlvbi1jYXJkIHtcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XG59Il19 */\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9hcHAvcGFnZXMvYWJvdXQvYWJvdXQucGFnZS5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0ksc0NBQUE7RUFDQSxZQUFBO0VBQ0Esa0JBQUE7RUFDQSxpQkFBQTtFQUNBLFdBQUE7QUFDSjs7QUFDQTtFQUNJLDBDQUFBO0VBQ0EsWUFBQTtFQUNBLGtCQUFBO0VBQ0EsaUJBQUE7RUFDQSxXQUFBO0VBQ0EsbUNBQUE7RUFDQSxnQkFBQTtBQUVKO0FBREk7RUFDSSxtQkFBQTtFQUNBLGdCQUFBO0FBR1I7O0FBQUE7RUFDSSxhQUFBO0VBQ0EsbUJBQUE7RUFDQSxzQkFBQTtBQUdKO0FBRkk7RUFDSSxVQUFBO0FBSVI7O0FBREE7RUFDSSxnQkFBQTtFQUNBLGlCQUFBO0VBQ0Esa0JBQUE7QUFJSjs7QUFGQTtFQUNJLGtCQUFBO0FBS0o7QUFDQSx3K0NBQXcrQyIsInNvdXJjZXNDb250ZW50IjpbImgxIHtcbiAgICBiYWNrZ3JvdW5kOiB2YXIoLS1pb24tY29sb3Itc2Vjb25kYXJ5KTtcbiAgICBjb2xvcjogd2hpdGU7XG4gICAgdGV4dC1hbGlnbjogY2VudGVyO1xuICAgIHBhZGRpbmc6IDMwcHggMHB4O1xuICAgIG1hcmdpbjogMHB4O1xufVxuaDIge1xuICAgIGJhY2tncm91bmQ6IHZhcigtLWlvbi1jb2xvci1wcmltYXJ5LXNoYWRlKTtcbiAgICBjb2xvcjogd2hpdGU7XG4gICAgdGV4dC1hbGlnbjogY2VudGVyO1xuICAgIHBhZGRpbmc6IDIwcHggMHB4O1xuICAgIG1hcmdpbjogMHB4O1xuICAgIGZvbnQtZmFtaWx5OiAnRGF3bmluZyBvZiBhIE5ldyBEYXknO1xuICAgIGZvbnQtc2l6ZTogMi41ZW07XG4gICAgc21hbGwge1xuICAgICAgICBmb250LWZhbWlseTogJ0xvcmEnO1xuICAgICAgICBmb250LXNpemU6IC42ZW07XG4gICAgfVxufVxuc2VjdGlvbiB7XG4gICAgZGlzcGxheTogZmxleDtcbiAgICBhbGlnbi1pdGVtczogY2VudGVyO1xuICAgIGZvbnQtZmFtaWx5OiAncmFsZXdheSc7XG4gICAgaW1nIHtcbiAgICAgICAgd2lkdGg6IDUwJTtcbiAgICB9XG59XG5wIHtcbiAgICBmb250LXNpemU6IGxhcmdlO1xuICAgIHBhZGRpbmc6IDBweCAzMHB4O1xuICAgIGxpbmUtaGVpZ2h0OiAxLjJlbTtcbn1cbmlvbi1jYXJkIHtcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XG59Il0sInNvdXJjZVJvb3QiOiIifQ== */"]
+  }))();
 }
 
 /***/ })

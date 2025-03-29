@@ -23,15 +23,15 @@ const routes = [{
   component: _faq_page__WEBPACK_IMPORTED_MODULE_0__.FaqPage
 }];
 class FaqPageRoutingModule {
-  static #_ = this.ɵfac = function FaqPageRoutingModule_Factory(t) {
+  static #_ = (() => this.ɵfac = function FaqPageRoutingModule_Factory(t) {
     return new (t || FaqPageRoutingModule)();
-  };
-  static #_2 = this.ɵmod = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineNgModule"]({
+  })();
+  static #_2 = (() => this.ɵmod = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineNgModule"]({
     type: FaqPageRoutingModule
-  });
-  static #_3 = this.ɵinj = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineInjector"]({
+  }))();
+  static #_3 = (() => this.ɵinj = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineInjector"]({
     imports: [_angular_router__WEBPACK_IMPORTED_MODULE_2__.RouterModule.forChild(routes), _angular_router__WEBPACK_IMPORTED_MODULE_2__.RouterModule]
-  });
+  }))();
 }
 (function () {
   (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsetNgModuleScope"](FaqPageRoutingModule, {
@@ -67,15 +67,15 @@ __webpack_require__.r(__webpack_exports__);
 
 
 class FaqPageModule {
-  static #_ = this.ɵfac = function FaqPageModule_Factory(t) {
+  static #_ = (() => this.ɵfac = function FaqPageModule_Factory(t) {
     return new (t || FaqPageModule)();
-  };
-  static #_2 = this.ɵmod = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵdefineNgModule"]({
+  })();
+  static #_2 = (() => this.ɵmod = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵdefineNgModule"]({
     type: FaqPageModule
-  });
-  static #_3 = this.ɵinj = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵdefineInjector"]({
+  }))();
+  static #_3 = (() => this.ɵinj = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵdefineInjector"]({
     imports: [_angular_common__WEBPACK_IMPORTED_MODULE_4__.CommonModule, _angular_forms__WEBPACK_IMPORTED_MODULE_5__.FormsModule, _ionic_angular__WEBPACK_IMPORTED_MODULE_6__.IonicModule, _faq_routing_module__WEBPACK_IMPORTED_MODULE_0__.FaqPageRoutingModule, src_app_components_components_module__WEBPACK_IMPORTED_MODULE_2__.ComponentsModule]
-  });
+  }))();
 }
 (function () {
   (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵsetNgModuleScope"](FaqPageModule, {
@@ -107,13 +107,12 @@ __webpack_require__.r(__webpack_exports__);
 
 function FaqPage_ion_accordion_9_Template(rf, ctx) {
   if (rf & 1) {
-    const _r4 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵgetCurrentView"]();
+    const _r1 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵgetCurrentView"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "ion-accordion", 5)(1, "ion-item", 6);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("click", function FaqPage_ion_accordion_9_Template_ion_item_click_1_listener() {
-      const restoredCtx = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵrestoreView"](_r4);
-      const index_r2 = restoredCtx.index;
-      const ctx_r3 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"]();
-      return _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵresetView"](ctx_r3.checkToScroll(index_r2));
+      const index_r2 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵrestoreView"](_r1).index;
+      const ctx_r2 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"]();
+      return _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵresetView"](ctx_r2.checkToScroll(index_r2));
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](2, "ion-label", 7);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](3);
@@ -122,12 +121,12 @@ function FaqPage_ion_accordion_9_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
   }
   if (rf & 2) {
-    const faq_r1 = ctx.$implicit;
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("value", faq_r1.question);
+    const faq_r4 = ctx.$implicit;
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("value", faq_r4.question);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](3);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](faq_r1.question);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("innerHtml", faq_r1.answer, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsanitizeHtml"]);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](faq_r4.question);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("innerHtml", faq_r4.answer, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsanitizeHtml"]);
   }
 }
 class FaqPage {
@@ -189,10 +188,10 @@ class FaqPage {
       }
     }, 400);
   }
-  static #_ = this.ɵfac = function FaqPage_Factory(t) {
+  static #_ = (() => this.ɵfac = function FaqPage_Factory(t) {
     return new (t || FaqPage)();
-  };
-  static #_2 = this.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineComponent"]({
+  })();
+  static #_2 = (() => this.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineComponent"]({
     type: FaqPage,
     selectors: [["app-faq"]],
     viewQuery: function FaqPage_Query(rf, ctx) {
@@ -227,8 +226,8 @@ class FaqPage {
       }
     },
     dependencies: [_angular_common__WEBPACK_IMPORTED_MODULE_3__.NgForOf, _ionic_angular__WEBPACK_IMPORTED_MODULE_2__.IonAccordion, _ionic_angular__WEBPACK_IMPORTED_MODULE_2__.IonAccordionGroup, _ionic_angular__WEBPACK_IMPORTED_MODULE_2__.IonButtons, _ionic_angular__WEBPACK_IMPORTED_MODULE_2__.IonContent, _ionic_angular__WEBPACK_IMPORTED_MODULE_2__.IonHeader, _ionic_angular__WEBPACK_IMPORTED_MODULE_2__.IonItem, _ionic_angular__WEBPACK_IMPORTED_MODULE_2__.IonLabel, _ionic_angular__WEBPACK_IMPORTED_MODULE_2__.IonMenuButton, _ionic_angular__WEBPACK_IMPORTED_MODULE_2__.IonTitle, _ionic_angular__WEBPACK_IMPORTED_MODULE_2__.IonToolbar, _components_web_header_web_header_component__WEBPACK_IMPORTED_MODULE_0__.WebHeaderComponent],
-    styles: ["P[_ngcontent-%COMP%] {\n  padding-left: 1em;\n  padding-right: 1em;\n  line-height: 1.3em;\n}\n\nion-content[_ngcontent-%COMP%] {\n  font-family: \"Raleway\" !important;\n}\n\nion-label[_ngcontent-%COMP%] {\n  font-family: \"Raleway\" !important;\n  font-size: 18px !important;\n}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9hcHAvcGFnZXMvZmFxL2ZhcS5wYWdlLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxpQkFBQTtFQUNBLGtCQUFBO0VBQ0Esa0JBQUE7QUFDRjs7QUFDQTtFQUNFLGlDQUFBO0FBRUY7O0FBQUE7RUFDRSxpQ0FBQTtFQUNBLDBCQUFBO0FBR0YiLCJzb3VyY2VzQ29udGVudCI6WyJQIHtcbiAgcGFkZGluZy1sZWZ0OiAxZW07XG4gIHBhZGRpbmctcmlnaHQ6IDFlbTtcbiAgbGluZS1oZWlnaHQ6IDEuM2VtO1xufVxuaW9uLWNvbnRlbnQge1xuICBmb250LWZhbWlseTogXCJSYWxld2F5XCIgIWltcG9ydGFudDtcbn1cbmlvbi1sYWJlbCB7XG4gIGZvbnQtZmFtaWx5OiBcIlJhbGV3YXlcIiAhaW1wb3J0YW50O1xuICBmb250LXNpemU6IDE4cHggIWltcG9ydGFudDtcbn0iXSwic291cmNlUm9vdCI6IiJ9 */"]
-  });
+    styles: ["P[_ngcontent-%COMP%] {\n  padding-left: 1em;\n  padding-right: 1em;\n  line-height: 1.3em;\n}\n\nion-content[_ngcontent-%COMP%] {\n  font-family: \"Raleway\" !important;\n}\n\nion-label[_ngcontent-%COMP%] {\n  font-family: \"Raleway\" !important;\n  font-size: 18px !important;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImZhcS5wYWdlLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxpQkFBQTtFQUNBLGtCQUFBO0VBQ0Esa0JBQUE7QUFDRjs7QUFDQTtFQUNFLGlDQUFBO0FBRUY7O0FBQUE7RUFDRSxpQ0FBQTtFQUNBLDBCQUFBO0FBR0YiLCJmaWxlIjoiZmFxLnBhZ2Uuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIlAge1xuICBwYWRkaW5nLWxlZnQ6IDFlbTtcbiAgcGFkZGluZy1yaWdodDogMWVtO1xuICBsaW5lLWhlaWdodDogMS4zZW07XG59XG5pb24tY29udGVudCB7XG4gIGZvbnQtZmFtaWx5OiBcIlJhbGV3YXlcIiAhaW1wb3J0YW50O1xufVxuaW9uLWxhYmVsIHtcbiAgZm9udC1mYW1pbHk6IFwiUmFsZXdheVwiICFpbXBvcnRhbnQ7XG4gIGZvbnQtc2l6ZTogMThweCAhaW1wb3J0YW50O1xufSJdfQ== */\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9hcHAvcGFnZXMvZmFxL2ZhcS5wYWdlLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxpQkFBQTtFQUNBLGtCQUFBO0VBQ0Esa0JBQUE7QUFDRjs7QUFDQTtFQUNFLGlDQUFBO0FBRUY7O0FBQUE7RUFDRSxpQ0FBQTtFQUNBLDBCQUFBO0FBR0Y7QUFDQSxnbkJBQWduQiIsInNvdXJjZXNDb250ZW50IjpbIlAge1xuICBwYWRkaW5nLWxlZnQ6IDFlbTtcbiAgcGFkZGluZy1yaWdodDogMWVtO1xuICBsaW5lLWhlaWdodDogMS4zZW07XG59XG5pb24tY29udGVudCB7XG4gIGZvbnQtZmFtaWx5OiBcIlJhbGV3YXlcIiAhaW1wb3J0YW50O1xufVxuaW9uLWxhYmVsIHtcbiAgZm9udC1mYW1pbHk6IFwiUmFsZXdheVwiICFpbXBvcnRhbnQ7XG4gIGZvbnQtc2l6ZTogMThweCAhaW1wb3J0YW50O1xufSJdLCJzb3VyY2VSb290IjoiIn0= */"]
+  }))();
 }
 
 /***/ })
