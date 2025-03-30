@@ -13,13 +13,13 @@
   },
   "private": true,
   "dependencies": {
-    "@angular/animations": "18.2.13",
-    "@angular/common": "18.2.13",
-    "@angular/core": "18.2.13",
-    "@angular/forms": "18.2.13",
-    "@angular/platform-browser": "18.2.13",
-    "@angular/platform-browser-dynamic": "18.2.13",
-    "@angular/router": "18.2.13",
+    "@angular/animations": "19.2.4",
+    "@angular/common": "19.2.4",
+    "@angular/core": "19.2.4",
+    "@angular/forms": "19.2.4",
+    "@angular/platform-browser": "19.2.4",
+    "@angular/platform-browser-dynamic": "19.2.4",
+    "@angular/router": "19.2.4",
     "@capacitor/clipboard": "1.0.7",
     "@capacitor/core": "3.4.0",
     "@ionic/angular": "^7.0.3",
@@ -30,17 +30,17 @@
     "rxjs": "^7.4.0",
     "swiper": "^9.2.3",
     "tslib": "^2.0.0",
-    "zone.js": "~0.14.10"
+    "zone.js": "~0.15.0"
   },
   "devDependencies": {
-    "@angular-devkit/architect": "0.1802.16",
-    "@angular-devkit/build-angular": "18.2.16",
-    "@angular-devkit/core": "18.2.16",
-    "@angular-devkit/schematics": "18.2.16",
-    "@angular/cli": "18.2.16",
-    "@angular/compiler": "18.2.13",
-    "@angular/compiler-cli": "18.2.13",
-    "@angular/language-service": "18.2.13",
+    "@angular-devkit/architect": "0.1902.5",
+    "@angular-devkit/build-angular": "19.2.5",
+    "@angular-devkit/core": "19.2.5",
+    "@angular-devkit/schematics": "19.2.5",
+    "@angular/cli": "19.2.5",
+    "@angular/compiler": "19.2.4",
+    "@angular/compiler-cli": "19.2.4",
+    "@angular/language-service": "19.2.4",
     "@capacitor/cli": "3.4.0",
     "@ionic/angular-toolkit": "^9.0.0",
     "@types/jasmine": "~3.6.0",
@@ -55,7 +55,7 @@
     "protractor": "~7.0.0",
     "ts-node": "^8.8.2",
     "tslint": "~6.1.0",
-    "typescript": "^5.4.5"
+    "typescript": "^5.8.2"
   },
   "description": "Build a photo gallery app that runs on iOS, Android, and the web - with just one codebase"
 }

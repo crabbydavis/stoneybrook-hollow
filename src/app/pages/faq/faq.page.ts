@@ -7,9 +7,10 @@ interface FAQ {
 }
 
 @Component({
-  selector: 'app-faq',
-  templateUrl: './faq.page.html',
-  styleUrls: ['./faq.page.scss'],
+    selector: 'app-faq',
+    templateUrl: './faq.page.html',
+    styleUrls: ['./faq.page.scss'],
+    standalone: false
 })
 export class FaqPage {
   @ViewChild(IonContent) content: IonContent;

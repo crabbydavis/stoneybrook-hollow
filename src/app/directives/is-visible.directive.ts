@@ -3,7 +3,8 @@ import { ElementRef, EventEmitter, Output } from '@angular/core';
 
 
 @Directive({
-  selector: '[lifeIsVisible]'
+    selector: '[lifeIsVisible]',
+    standalone: false
 })
 export class IsVisibleDirective implements AfterViewInit {
   @Output() isVisible: EventEmitter<boolean> = new EventEmitter();

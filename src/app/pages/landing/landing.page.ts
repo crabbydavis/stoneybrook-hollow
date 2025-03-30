@@ -8,25 +8,26 @@ import { Router } from '@angular/router';
 SwiperCore.use([Pagination, Autoplay]);
 
 @Component({
-  selector: 'app-landing',
-  templateUrl: './landing.page.html',
-  styleUrls: ['./landing.page.scss'],
-  animations: [
-    trigger('fadeIn', [
-      state('hidden', style({
-        opacity: '0', transform: 'translateY(-100%)'
-      })),
-      state('visible', style({
-        opacity: '1', transform: 'translateY(0)'
-      })),
-      transition('hidden => visible', [
-        animate('1000ms 500ms ease', keyframes([
-          style({ transform: 'translateY(0)', offset: .1 }),
-          style({ opacity: '1', offset: 1 })
-        ]))
-      ])
-    ])
-  ]
+    selector: 'app-landing',
+    templateUrl: './landing.page.html',
+    styleUrls: ['./landing.page.scss'],
+    animations: [
+        trigger('fadeIn', [
+            state('hidden', style({
+                opacity: '0', transform: 'translateY(-100%)'
+            })),
+            state('visible', style({
+                opacity: '1', transform: 'translateY(0)'
+            })),
+            transition('hidden => visible', [
+                animate('1000ms 500ms ease', keyframes([
+                    style({ transform: 'translateY(0)', offset: .1 }),
+                    style({ opacity: '1', offset: 1 })
+                ]))
+            ])
+        ])
+    ],
+    standalone: false
 })
 export class LandingPage implements OnInit {
   @ViewChild('swiper')
