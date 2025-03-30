@@ -7,29 +7,29 @@ const routes: Routes = [
     redirectTo: '/landing',
     pathMatch: 'full'
   },
-  // {
-  //   path: 'landing',
-  //   loadChildren: () => import('./pages/landing/landing.module').then( m => m.LandingPageModule)
-  // },
+  {
+    path: 'landing',
+    loadComponent: () => import('./pages/landing/landing.page').then( m => m.LandingPage)
+  },
   {
     path: 'about',
-    loadChildren: () => import('./pages/about/about.module').then( m => m.AboutPageModule)
+    loadComponent: () => import('./pages/about/about.page').then( m => m.AboutPage)
   },
   {
     path: 'contact',
-    loadChildren: () => import('./pages/contact-us/contact-us.module').then( m => m.ContactUsPageModule)
+    loadComponent: () => import('./pages/contact-us/contact-us.page').then( m => m.ContactUsPage)
   },
   {
     path: 'faq',
-    loadChildren: () => import('./pages/faq/faq.module').then( m => m.FaqPageModule)
+    loadComponent: () => import('./pages/faq/faq.page').then( m => m.FaqPage)
   },
   {
     path: 'learn',
-    loadChildren: () => import('./pages/learn/learn.module').then( m => m.LearnPageModule)
+    loadComponent: () => import('./pages/learn/learn.page').then( m => m.LearnPage)
   },
   {
     path: 'classes',
-    loadChildren: () => import('./pages/classes/classes.module').then( m => m.ClassesPageModule)
+    loadComponent: () => import('./pages/classes/classes.page').then( m => m.ClassesPage)
   }
 ];
 

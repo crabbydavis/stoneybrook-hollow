@@ -1,5 +1,5 @@
 import { ContactUsPage } from './../contact-us/contact-us.page';
-import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
+import { CUSTOM_ELEMENTS_SCHEMA, Component, ElementRef, OnInit, ViewChild } from '@angular/core';
 import { trigger, style, state, animate, transition, keyframes } from '@angular/animations';
 import { IonRouterOutlet, IonicModule, IonicSlides, ModalController, NavController } from '@ionic/angular';
 import SwiperCore, { Autoplay, Pagination } from 'swiper';
@@ -30,8 +30,9 @@ SwiperCore.use([Pagination, Autoplay]);
     ],
     imports: [
       IonicModule,
-      WebHeaderComponent
-    ]
+      WebHeaderComponent,
+    ],
+    schemas: [CUSTOM_ELEMENTS_SCHEMA] // for swiper
 })
 export class LandingPage implements OnInit {
   @ViewChild('swiper')

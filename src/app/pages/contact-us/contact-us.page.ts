@@ -1,14 +1,15 @@
 import { Component, OnInit } from '@angular/core';
 import { UntypedFormBuilder, UntypedFormGroup, Validators } from '@angular/forms';
-import { ToastController } from '@ionic/angular';
+import { ToastController, IonicModule } from '@ionic/angular';
 
 import { Clipboard } from '@capacitor/clipboard';
+import { WebHeaderComponent } from '../../components/web-header/web-header.component';
 
 @Component({
     selector: 'app-contact-us',
     templateUrl: './contact-us.page.html',
     styleUrls: ['./contact-us.page.scss'],
-    standalone: false
+    imports: [IonicModule, WebHeaderComponent]
 })
 export class ContactUsPage implements OnInit {
 

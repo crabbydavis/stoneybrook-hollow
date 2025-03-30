@@ -1,7 +1,8 @@
 import { ContactUsPage } from './pages/contact-us/contact-us.page';
 import { Component, ViewEncapsulation } from '@angular/core';
 import { register } from 'swiper/element/bundle';
-import { Platform, ModalController } from '@ionic/angular';
+import { Platform, ModalController, IonicModule } from '@ionic/angular';
+import { RouterLink, RouterLinkActive } from '@angular/router';
 
 register();
 
@@ -10,7 +11,7 @@ register();
     templateUrl: './app.component.html',
     styleUrls: ['./app.component.scss'],
     encapsulation: ViewEncapsulation.None,
-    standalone: false
+    imports: [IonicModule, RouterLink, RouterLinkActive]
 })
 export class AppComponent {
 
