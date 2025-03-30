@@ -3,8 +3,8 @@ import { ElementRef, EventEmitter, Output } from '@angular/core';
 
 
 @Directive({
-    selector: '[lifeIsVisible]',
-    standalone: false
+    selector: '[isVisible]',
+    standalone: true
 })
 export class IsVisibleDirective implements AfterViewInit {
   @Output() isVisible: EventEmitter<boolean> = new EventEmitter();
@@ -24,7 +24,6 @@ export class IsVisibleDirective implements AfterViewInit {
     entries.forEach((entry: IntersectionObserverEntry) => {
       if (this.checkIfIntersecting(entry)) {
         this.isVisible.emit();
-        console.log('isVisible');
         this.intersectionObserver.unobserve(this.element.nativeElement);
         this.intersectionObserver.disconnect();
       }

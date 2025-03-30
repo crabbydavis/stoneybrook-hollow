@@ -10,11 +10,145 @@
 <ion-content>
   <app-web-header class="hide-s"></app-web-header>
   <ion-accordion-group>
-    <ion-accordion *ngFor="let faq of faqs; let index = index" [value]="faq.question" toggle-icon="arrow-down-circle">
-      <ion-item slot="header" tappable (click)="checkToScroll(index)">
+    <!-- <ion-accordion *ngFor="let faq of faqs; let index = index"  toggle-icon="arrow-down-circle">
+      <ion-item slot="header" >
         <ion-label class="ion-text-wrap">{{ faq.question }}</ion-label>
       </ion-item>
       <p slot="content" [innerHtml]="faq.answer"></p>
+    </ion-accordion> -->
+    <ion-accordion  toggle-icon="arrow-down-circle">
+      <ion-item slot="header" >
+        <ion-label class="ion-text-wrap">Where are you located?</ion-label>
+      </ion-item>
+      <p slot="content">
+        We’re located at 416 S Mountain Rd, Fruit Heights, UT. We are a 9 minute walk to mountain trails and a 13 minute walk to creek access at Nicholls Park. Bonus: we’ve got a bus stop across the street for community-oriented field trips!<br><br>
+        Our indoor space has tons of natural lights and large classrooms with tons of room to play and be free. Our outdoor space includes a large (.45 acre), fenced-in FOREST!        
+      </p>
+    </ion-accordion>
+    <ion-accordion  toggle-icon="arrow-down-circle">
+      <ion-item slot="header" >
+        <ion-label class="ion-text-wrap">How much is tuition?</ion-label>
+      </ion-item>
+      <p slot="content">
+        Tuition is $325 a month. A $100 annual deposit is required upon enrollment to save your spot and will go towards the final month's tuition. We are happy to refund your deposit if we can fill your spot in a reasonable amount of time. There is a $100 annual registration fee.<br><br>
+        We believe that all children should have access to a quality early childhood education. We are opening a 501-3c non-profit and we hope to provide needs-based scholarships soon!<br><br>
+        If you have a Kindergartener, First - Third Grader and/or a child with a learning disability, funding may be available. Please reach out for more information. 
+      </p>
+    </ion-accordion>
+    <ion-accordion  toggle-icon="arrow-down-circle">
+      <ion-item slot="header" >
+        <ion-label class="ion-text-wrap">What ages can attend Stoneybrook Community school?</ion-label>
+      </ion-item>
+      <p slot="content">
+        We enroll children ages 3 - 6 in our Preschool & Kindergarten program.. Children must be 3 years old and potty trained by September 1st. Preschoolers and kindergarteners are mixed in the same class!<br><br>
+        Research has found many benefits to a mixed-aged classroom! Older children have the opportunity to explore academic skills at their own pace while also having the freedom to play. They get to nurture and lead younger children and share their skillsets with them.<br><br>
+        Younger children get to learn social and academic skills from older peers. They get to maintain continuity in their education, as they will have the same teacher for 3 years if they begin our program at age 3.<br><br>
+        We love our mixed-age classrooms!
+      </p>
+    </ion-accordion>
+    <ion-accordion  toggle-icon="arrow-down-circle">
+      <ion-item slot="header" >
+        <ion-label class="ion-text-wrap">What is the schedule?</ion-label>
+      </ion-item>
+      <p slot="content">
+        We meet Mondays - Thursdays. There are morning and afternoon classes available. Please see the pick up/drop off schedule here.<br><br>
+        We will follow the Davis County School District calendar for holidays and breaks. We do not offer 1, 2, 3 or 5 day options. Families may choose to come less than 4 days, but tuition will remain the same.<br><br>
+        The 2025-2026 school year will begin on September 2nd and end on May 21st.        
+      </p>
+    </ion-accordion>
+    <ion-accordion  toggle-icon="arrow-down-circle">
+      <ion-item slot="header" >
+        <ion-label class="ion-text-wrap">What is the teacher to student ratio?</ion-label>
+      </ion-item>
+      <p slot="content">
+        Our classrooms have a 1:8 teacher to student ratio. Each classroom has 16 children and two qualified and experienced teachers.    
+      </p>
+    </ion-accordion>
+    <ion-accordion  toggle-icon="arrow-down-circle">
+      <ion-item slot="header" >
+        <ion-label class="ion-text-wrap">Does Stoneybrook Community School have a religious affiliation?</ion-label>
+      </ion-item>
+      <p slot="content">
+        No. We deeply value diversity of thought and tradition. We welcome learners from all backgrounds and beliefs. We will objectively and respectfully learn about many international religions and cultures throughout the year.
+      </p>
+    </ion-accordion>
+    <ion-accordion  toggle-icon="arrow-down-circle">
+      <ion-item slot="header" >
+        <ion-label class="ion-text-wrap">Can I come tour the studio?</ion-label>
+      </ion-item>
+      <p slot="content">
+        Yes! Please <a href="/contact">contact Miss Anna</a> to schedule a time. 
+      </p>
+    </ion-accordion>
+    <ion-accordion  toggle-icon="arrow-down-circle">
+      <ion-item slot="header" >
+        <ion-label class="ion-text-wrap">Will a snack or lunch be provided?</ion-label>
+      </ion-item>
+      <p slot="content">
+        A healthy snack will be provided every day. We do not provide lunch. We can accommodate all dietary needs. We are happy and qualified to give tube feeds for our students with gastronomy tubes. We are a peanut-free campus.
+      </p>
+    </ion-accordion>
+    <ion-accordion  toggle-icon="arrow-down-circle">
+      <ion-item slot="header" >
+        <ion-label class="ion-text-wrap">Can Stoneybrook Community School accommodate my child with a disability or medical needs?</ion-label>
+      </ion-item>
+      <p slot="content">
+        Miss Anna has a disabled child herself and is passionate about advocating for all children, especially those with unique needs. Please contact us about your child. We would love to provide a tailored learning experience for them within our area of expertise.<br><br>
+        We cannot provide nurses or therapists at this time. If your child has a nurse, we welcome them in our studio. We will create an ILP (individualized learning plan - similar to an IEP) or an SSP (student support plan - similar to a 504) for your students to make sure they have equal access to a full and wholistic education.<br><br>
+        If your Kindergartener has a learning disability, funding may be available. Please reach out!
+      </p>
+    </ion-accordion>
+    <ion-accordion  toggle-icon="arrow-down-circle">
+      <ion-item slot="header" >
+        <ion-label class="ion-text-wrap">Will my child be graded or tested?</ion-label>
+      </ion-item>
+      <p slot="content">
+        We guide children to skills such as mathematics or literacy when they are developmentally ready and interested. When your child is ready, they will learn to master skills at their own pace. We give little large-group instruction.<br><br>
+        Going at one's own pace fosters a love of learning. As such, we do not give grades or tests. We provide a variety of documentation for parents to follow along on their child's learning journey. Children are observed during play to determine mastery of skills.        
+      </p>
+    </ion-accordion>
+    <ion-accordion  toggle-icon="arrow-down-circle">
+      <ion-item slot="header" >
+        <ion-label class="ion-text-wrap">How are parents involved?</ion-label>
+      </ion-item>
+      <p slot="content">
+        We are in the business of creating life-long learners! We are cultivating a strong foundation of beliefs, not just academic skills. This is not a sustainable goal without full buy-in from parents.<br><br>
+        "Parents are an essential component of the program - a competent and active part of their children's learning experience. They are not considered consumers but co-responsible partners. Their right to participation is expected and supported." <a href="http://learningmaterialswork.com/wp-content/uploads/2016/06/ValuesAndPrinciples.pdf" target="_blank">link</a><br><br>
+        We will meet before the year begins and anytime during the year when requested to ensure that we are supporting the unique needs of your child. We will also hold free workshops throughout the year to empower you to advocate for your child’s growth and development. Additionally, helpful resources will be shared throughout the year. We care deeply about parent empowerment and are so grateful for your support!
+      </p>
+    </ion-accordion>
+    <ion-accordion  toggle-icon="arrow-down-circle">
+      <ion-item slot="header" >
+        <ion-label class="ion-text-wrap">Will my child learn about diversity at Stoneybrook Community School?</ion-label>
+      </ion-item>
+      <p slot="content">
+        Yes! We aim to foster beliefs of advocacy, inclusion and empathy for all. We welcome children from all backgrounds and circumstances. We strive to create a rich learning environment where many cultures, bodies, skin-tones, abilities, families and beliefs are represented. <a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/desc.12788">Research shows</a> children as young as four years old have already begun to show implicit bias. All learning to combat this will be developmentally appropriate and research-based. We are deeply committed to transparency with this endeavor - please contact us if you have further questions.
+      </p>
+    </ion-accordion>
+    <ion-accordion  toggle-icon="arrow-down-circle">
+      <ion-item slot="header" >
+        <ion-label class="ion-text-wrap">What precautions are in place to keep my child safe?</ion-label>
+      </ion-item>
+      <p slot="content">
+        All teachers and staff have been fingerprinted and have passed a background check. They maintain up-to-date CPR and first-aid certification. All doors into our school will remain locked during school hours. Children will be signed in and out by authorized adults each day. Children practice fire, earthquake and intruder drills throughout the year. Due to our small class size we maintain close supervision at all times.<br><br>
+        Please reach out with specific safety concerns, we are happy to support you.
+      </p>
+    </ion-accordion>
+    <ion-accordion  toggle-icon="arrow-down-circle">
+      <ion-item slot="header" >
+        <ion-label class="ion-text-wrap">Are you licensed?</ion-label>
+      </ion-item>
+      <p slot="content">
+        We maintain a current <a href="https://drive.google.com/file/d/1YyXZ3zJEJVt8Dqpsx-FMZJQryPeossyG/view?usp=sharing" target="_blank">license</a> through Kaysville City.
+      </p>
+    </ion-accordion>
+    <ion-accordion  toggle-icon="arrow-down-circle">
+      <ion-item slot="header" >
+        <ion-label class="ion-text-wrap">I want to learn more about your learning philosophy!</ion-label>
+      </ion-item>
+      <p slot="content">
+        <a href="https://www.instagram.com/stoneybrookhollow/" target="_blank">Follow us</a>
+      </p>
     </ion-accordion>
   </ion-accordion-group>
 </ion-content>

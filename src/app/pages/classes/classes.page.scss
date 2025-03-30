@@ -22,8 +22,18 @@ section {
     display: flex;
     align-items: center;
     font-family: 'raleway';
-    img {
+    img, .early-img {
         width: 50%;
+    }
+    .early-img {
+        background-image: url('/assets/img/early-class.jpeg');
+        background-size: cover;
+        background-position: center;
+        height: 100%;
+        width: 50%;
+    }
+    .schedule {
+        width: 200px;
     }
 }
 p {

@@ -7,10 +7,10 @@ const routes: Routes = [
     redirectTo: '/landing',
     pathMatch: 'full'
   },
-  {
-    path: 'landing',
-    loadChildren: () => import('./pages/landing/landing.module').then( m => m.LandingPageModule)
-  },
+  // {
+  //   path: 'landing',
+  //   loadChildren: () => import('./pages/landing/landing.module').then( m => m.LandingPageModule)
+  // },
   {
     path: 'about',
     loadChildren: () => import('./pages/about/about.module').then( m => m.AboutPageModule)
