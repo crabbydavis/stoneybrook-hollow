@@ -4,12 +4,13 @@ import { ToastController, IonicModule } from '@ionic/angular';
 
 import { Clipboard } from '@capacitor/clipboard';
 import { WebHeaderComponent } from '../../components/web-header/web-header.component';
+import { FooterComponent } from 'src/app/components/footer/footer.component';
 
 @Component({
     selector: 'app-contact-us',
     templateUrl: './contact-us.page.html',
     styleUrls: ['./contact-us.page.scss'],
-    imports: [IonicModule, WebHeaderComponent]
+    imports: [IonicModule, WebHeaderComponent, FooterComponent]
 })
 export class ContactUsPage implements OnInit {
 

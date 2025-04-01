@@ -1,6 +1,7 @@
 import { Component, ViewChild } from '@angular/core';
 import { IonContent, IonicModule } from '@ionic/angular';
 import { WebHeaderComponent } from '../../components/web-header/web-header.component';
+import { FooterComponent } from 'src/app/components/footer/footer.component';
 
 interface FAQ {
   question: string;
@@ -11,7 +12,7 @@ interface FAQ {
     selector: 'app-faq',
     templateUrl: './faq.page.html',
     styleUrls: ['./faq.page.scss'],
-    imports: [IonicModule, WebHeaderComponent]
+    imports: [IonicModule, WebHeaderComponent, FooterComponent]
 })
 export class FaqPage {
   @ViewChild(IonContent) content: IonContent;
@@ -41,5 +42,9 @@ export class FaqPage {
         this.content.scrollToBottom(200);
       }
     }, 400);
+  }
+
+  scroll(el: HTMLElement) {
+    el.scrollIntoView({behavior: 'smooth'});
   }
 }

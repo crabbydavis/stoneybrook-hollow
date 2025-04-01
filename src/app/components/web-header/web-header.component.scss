@@ -1,7 +1,9 @@
 ion-toolbar {
     --background: var(--ion-color-primary);
     img {
-        height: 80px;
+        height: 60px;
+        padding-top: 5px;
+        padding-left: 5px;
     }
     ion-button {
         font-size: large;

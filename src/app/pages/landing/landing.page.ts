@@ -5,6 +5,7 @@ import { IonRouterOutlet, IonicModule, IonicSlides, ModalController, NavControll
 import SwiperCore, { Autoplay, Pagination } from 'swiper';
 import { Router } from '@angular/router';
 import { WebHeaderComponent } from 'src/app/components/web-header/web-header.component';
+import { FooterComponent } from 'src/app/components/footer/footer.component';
 
 SwiperCore.use([Pagination, Autoplay]);
 
@@ -31,6 +32,7 @@ SwiperCore.use([Pagination, Autoplay]);
     imports: [
       IonicModule,
       WebHeaderComponent,
+      FooterComponent
     ],
     schemas: [CUSTOM_ELEMENTS_SCHEMA] // for swiper
 })

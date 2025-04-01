@@ -9,6 +9,17 @@
 
 <ion-content>
   <app-web-header class="hide-s"></app-web-header>
+  <!-- <small>(<a tappable (click)="scroll(olderClass)">View 1st-3rd Grade FAQ</a>)</small> -->
+  <h1>Preschool & Kindergarten</h1>
+
+  <!-- <ion-row class="flex" class="ion-no-margin ion-align-items-center">
+    <ion-col class="ion-no-margin">
+      <h2 class="ion-margin-start">Pre-K FAQ (<a tappable (click)="scroll(olderClass)">1st-3rd Grade FAQ</a>)</h2>
+    </ion-col>
+    <ion-col class="ion-no-margin ion-text-right">
+      <a class="ion-margin-end" (click)="scroll(olderClass)">1st-3rd Grade FAQ</a>
+    </ion-col>
+  </ion-row> -->
   <ion-accordion-group>
     <!-- <ion-accordion *ngFor="let faq of faqs; let index = index"  toggle-icon="arrow-down-circle">
       <ion-item slot="header" >
@@ -151,4 +162,283 @@
       </p>
     </ion-accordion>
   </ion-accordion-group>
+  <h1 #olderClass>1st - 3rd Grade</h1>
+  <ion-accordion-group>
+    <ion-accordion  toggle-icon="arrow-down-circle">
+      <ion-item slot="header" >
+        <ion-label class="ion-text-wrap">What is Stoneybrook’s homeschool hybrid program?</ion-label>
+      </ion-item>
+      <p slot="content">
+        Our homeschool hybrid program is built around the belief that learning should be rich,
+        meaningful, and deeply connected to the world around us.<br><br>
+        By prioritizing best educational practices, our program is designed to engage children
+        in hands-on, project-based experiences that are relevant and exciting. We want every
+        child to build a strong sense of community, where collaboration and meaningful
+        relationships are at the core of their daily interactions.<br><br>
+        Through local exploration and real-world connections, students develop their sense of
+        citizenship, which fosters a love for our community and their place within it.<br><br>
+        Above all, our program strives to ignite a lifelong love of learning and personal growth,
+        encouraging children to embrace challenges and discover the joy of childhood.
+      </p>
+    </ion-accordion>
+    <ion-accordion  toggle-icon="arrow-down-circle">
+      <ion-item slot="header" >
+        <ion-label class="ion-text-wrap">What is the homeschool hybrid schedule?</ion-label>
+      </ion-item>
+      <div slot="content">
+        <p>We have 3 scheduling options:</p>
+        <ul>
+          <li>Explorers Club</li>
+          <li>Wayfinders Program</li>
+          <li>Explorers and Wayfinders combined</li>
+        </ul>
+      </div>
+    </ion-accordion>
+    <ion-accordion  toggle-icon="arrow-down-circle">
+      <ion-item slot="header" >
+        <ion-label class="ion-text-wrap">What is the Explorers Club?</ion-label>
+      </ion-item>
+      <p slot="content">
+        The Explorers Club is held every Monday from September - May.<br><br>
+        Explorers Club is a one-day program designed to cultivate curiosity, independence,
+        and a love of learning. Through forest exploration, free play, outings, and open-
+        ended inquiry in science, social studies, math, and language, children develop the
+        mindset and skills to direct their own learning. Rather than following a structured
+        academic scope and sequence, this program encourages children to explore their
+        interests and grow socially, emotionally, and physically in a supportive, nature-rich
+        environment.
+      </p>
+    </ion-accordion>
+    <ion-accordion  toggle-icon="arrow-down-circle">
+      <ion-item slot="header" >
+        <ion-label class="ion-text-wrap">What is the Wayfinders Program?</ion-label>
+      </ion-item>
+      <p slot="content">
+        Wayfinders is a three-day program designed to provide a rich, engaging education
+        that balances structured academics with hands-on exploration. In addition to the
+        freedom, creativity, and discovery of the Explorers Club, Wayfinders includes
+        personalized math and language instruction tailored to each child's skill level. Social
+        Studies, Science, and Makerspace days provide opportunities for deep inquiry and
+        critical thinking. Rooted in best practices and aligned with the Utah Core Standards,
+        Wayfinders ensures that children receive a comprehensive education while
+        fostering curiosity, independence, and a love of learning.<br><br>
+        Although we provide a robust education at three days a week, we encourage
+        families to continue math and language instruction the rest of the week. Learn why
+        under “Do students have homework?”
+      </p>
+    </ion-accordion>
+    <ion-accordion  toggle-icon="arrow-down-circle">
+      <ion-item slot="header" >
+        <ion-label class="ion-text-wrap">Why do you follow the Utah Core?</ion-label>
+      </ion-item>
+      <p slot="content">
+        We believe that every child has the right to a full and well-rounded education. The
+        Utah Core Standards were carefully developed by researchers, educators, and child
+        development experts to ensure that students receive a thoughtfully sequenced and
+        comprehensive education. These standards provide a strong foundation in essential
+        subjects while allowing flexibility for creative, hands-on, and nature-based learning.<br><br>
+        We know that some homeschooling families may feel disenfranchised by traditional
+        public education, but our goal is to show that the Utah Core is not about rigid
+        instruction—it’s about ensuring that children have access to the knowledge and skills
+        they deserve. By following these research-backed guidelines, we can follow each
+        child's progress and provide families with confidence that their children are receiving
+        a rich, meaningful, and high-quality education.<br><br>
+        Take a look at the standards for yourself - we hope that you find they are reasonable
+        and helpful in protecting a child’s right to a full education. We will differ from these
+        standards only in regards to the pace at which a child may move. We believe in
+        mastery learning. Only when a child has gained a skill will they move on, as opposed to
+        moving through content at the same pace as other peers their age.
+      </p>
+    </ion-accordion>
+    <ion-accordion  toggle-icon="arrow-down-circle">
+      <ion-item slot="header" >
+        <ion-label class="ion-text-wrap">Where is the program located?</ion-label>
+      </ion-item>
+      <p slot="content">
+        We’re located at 416 S. Mountain Rd, Fruit Heights, Utah. We are a 9 minute walk to
+        mountain trails and a 13 minute walk to creek access at Nicholls Park. Bonus: we’ve
+        got a bus stop across the street for community-oriented field trips!
+      </p>
+    </ion-accordion>
+    <ion-accordion  toggle-icon="arrow-down-circle">
+      <ion-item slot="header" >
+        <ion-label class="ion-text-wrap">What ages/grades does the program serve?</ion-label>
+      </ion-item>
+      <p slot="content">
+        We serve First - Third graders (ages 6-9) in one mixed-age class.<br><br>
+        Mixed-age classrooms create a collaborative learning environment where younger
+        students learn from older peers, and older students reinforce their knowledge
+        through mentorship. This structure fosters independence, social-emotional
+        growth, and a strong sense of community while reducing competition. By mirroring
+        real-world social dynamics, mixed-age learning helps children develop
+        communication, leadership, and problem-solving skills that extend beyond the
+        classroom.
+      </p>
+    </ion-accordion>
+    <ion-accordion  toggle-icon="arrow-down-circle">
+      <ion-item slot="header" >
+        <ion-label class="ion-text-wrap">What are the program hours?</ion-label>
+      </ion-item>
+      <div slot="content">
+        <p>We offer 3 different schedules:</p>
+        <ul>
+          <li>Explorers Club: Mondays from 9-3</li>
+          <li>Wayfinders Program: Tuesdays, Wednesdays and Thursdays from 9-3</li>
+          <li>Explorers & Wayfinders Combined: M-Th from 9-3</li>
+        </ul>
+        <p>We follow the Davis County School District calendar for all holidays and breaks</p>
+      </div>
+    </ion-accordion>
+    <ion-accordion  toggle-icon="arrow-down-circle">
+      <ion-item slot="header" >
+        <ion-label class="ion-text-wrap">What teaching philosophy do you follow?</ion-label>
+      </ion-item>
+      <p slot="content">
+        Stoneybrook is Reggio Emilia-inspired with a strong emphasis on nature-based,
+        project-based, and play-driven learning. We encourage curiosity, creativity, and
+        hands-on exploration. We facilitate projects based on emergent curriculum.
+        Teachers observe children during play and discussions to determine their current
+        interests - our curriculum emerges from the children. Projects and investigations
+        help the children dive into their interests further, honing the skills they’re working
+        on during learning pods and at home.
+      </p>
+    </ion-accordion>
+    <ion-accordion  toggle-icon="arrow-down-circle">
+      <ion-item slot="header" >
+        <ion-label class="ion-text-wrap">How are students grouped?</ion-label>
+      </ion-item>
+      <p slot="content">
+        We have one multi-age classroom that promotes mentorship, collaboration, and
+        individualized learning experiences. During our learning pods, children will be
+        grouped based on skill level to make sure they are getting a “just right” challenge.
+      </p>
+    </ion-accordion>
+    <ion-accordion  toggle-icon="arrow-down-circle">
+      <ion-item slot="header" >
+        <ion-label class="ion-text-wrap">Do students have homework?</ion-label>
+      </ion-item>
+      <p slot="content">
+        We encourage families to read together daily and protect unstructured playtime,
+        both of which are essential for cognitive and social development (Sénéchal &
+        Young, 2008). While we don’t typically send work home, we recommend
+        incorporating additional math and language activities at home to reinforce
+        learning, as consistent exposure to these subjects strengthens long-term retention
+        and confidence.<br><br>
+        Research shows that daily reading builds vocabulary, comprehension, and critical
+        thinking skills (National Reading Panel, 2000), while regular math practice
+        enhances problem-solving abilities and mathematical fluency (Boaler, 2015;
+        (Clements & Sarama, 2011). We will share what we’re working on in math and
+        language so you can support your child’s growth at home in a way that feels
+        natural and engaging.
+      </p>
+    </ion-accordion>
+    <ion-accordion  toggle-icon="arrow-down-circle">
+      <ion-item slot="header" >
+        <ion-label class="ion-text-wrap">What are the qualifications of the teachers?</ion-label>
+      </ion-item>
+      <p slot="content">
+        Our teachers are highly qualified with years of experience.<br>
+        Our Wayfinders Teacher is Whitney Ure. Read her bio here.<br>
+        Our Explorers Club Teacher is Stephanie Woodward. Read her bio here.
+      </p>
+    </ion-accordion>
+    <ion-accordion  toggle-icon="arrow-down-circle">
+      <ion-item slot="header" >
+        <ion-label class="ion-text-wrap">What is the student-to-teacher ratio?</ion-label>
+      </ion-item>
+      <p slot="content">
+        We maintain small class sizes to ensure individualized attention and meaningful
+        connections. For the 25-26 school year, the ratio will be 1:10.
+      </p>
+    </ion-accordion>
+    <ion-accordion  toggle-icon="arrow-down-circle">
+      <ion-item slot="header" >
+        <ion-label class="ion-text-wrap">What is expected of parents?</ion-label>
+      </ion-item>
+      <p slot="content">
+        Please support your child in attending as often as possible. Community building
+        and project work are strong values of our program. Learning outcomes are better
+        achieved for all when students come consistently.<br><br>
+        Because our academic program is only 3 days, we encourage parents to provide
+        math and language exposure outside of school as well. See “Do students have
+        homework?” above for more details.<br><br>
+        No required volunteer hours, but we love family involvement in events and special
+        activities!<br><br>
+        Open communication with teachers to support your child’s learning experience.
+      </p>
+    </ion-accordion>
+    <ion-accordion  toggle-icon="arrow-down-circle">
+      <ion-item slot="header" >
+        <ion-label class="ion-text-wrap">Will my child have opportunities to make friends?</ion-label>
+      </ion-item>
+      <p slot="content">
+        Absolutely! Our program fosters a close-knit community where children can hone
+        their social and emotional skills in a safe, supportive environment.
+      </p>
+    </ion-accordion>
+    <ion-accordion  toggle-icon="arrow-down-circle">
+      <ion-item slot="header" >
+        <ion-label class="ion-text-wrap">Do you offer field trips or extracurricular activities?</ion-label>
+      </ion-item>
+      <p slot="content">
+        Yes! We organize nature outings, field trips, and community events throughout the
+        year depending on the children’s interests.<br><br>
+        In addition, we plan to participate in a handful of service projects throughout the
+        year. When children are connected to their community, they grow up to be more
+        involved citizens.
+      </p>
+    </ion-accordion>
+    <ion-accordion  toggle-icon="arrow-down-circle">
+      <ion-item slot="header" >
+        <ion-label class="ion-text-wrap">How much does the program cost?</ion-label>
+      </ion-item>
+      <div slot="content">
+        <ul>
+          <li>The Wayfinders Program: 3 days/week, 6 hours/ day, $500/ month</li>
+          <li>Explorers Club: 1 day/week, 6 hours/ day, $180/month</li>
+          <li>Wayfinders + Explorers Club: 4 days/week, 6 hours/day, $650/month</li>
+        </ul>
+      </div>
+    </ion-accordion>
+    <ion-accordion  toggle-icon="arrow-down-circle">
+      <ion-item slot="header" >
+        <ion-label class="ion-text-wrap">Are there scholarships or discounts?</ion-label>
+      </ion-item>
+      <p slot="content">
+        We strive to keep our program accessible. Parents should be able to use funds
+        obtained from OpenEd, Harmony and the Utah Fits All Scholarship.
+      </p>
+    </ion-accordion>
+    <ion-accordion  toggle-icon="arrow-down-circle">
+      <ion-item slot="header" >
+        <ion-label class="ion-text-wrap">What is the attendance policy?</ion-label>
+      </ion-item>
+      <p slot="content">
+        Families commit to their chosen schedule. Consistency helps create a stable
+        learning environment as our projects are dependent on the current children in the
+        classroom.
+      </p>
+    </ion-accordion>
+    <ion-accordion  toggle-icon="arrow-down-circle">
+      <ion-item slot="header" >
+        <ion-label class="ion-text-wrap">How do you handle discipline?</ion-label>
+      </ion-item>
+      <p slot="content">
+        We use a positive discipline approach that focuses on emotional intelligence,
+        conflict resolution, and natural consequences. We are opposed to any forms of
+        authoritarian classroom management.
+      </p>
+    </ion-accordion>
+    <ion-accordion  toggle-icon="arrow-down-circle">
+      <ion-item slot="header" >
+        <ion-label class="ion-text-wrap">What is your stance on technology use?</ion-label>
+      </ion-item>
+      <p slot="content">
+        We are a low-tech program that prioritizes hands-on, nature-based learning.
+        Technology is not used as a primary teaching tool in our classrooms, but will be
+        used to help us explore our interests and execute our projects.
+      </p>
+    </ion-accordion>
+  </ion-accordion-group>
+  <app-footer></app-footer>
 </ion-content>

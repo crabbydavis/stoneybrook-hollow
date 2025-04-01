@@ -1,5 +1,4 @@
 ion-toolbar {
-    --background: var(--ion-color-primary);
     img {
         height: 80px;
     }
@@ -10,4 +9,12 @@ ion-toolbar {
 .transparent {
     --background: rgba(0, 0, 0, .5) !important;
     box-shadow: 0 0 15px 20px #00000080 !important;
+}
+a {
+    color: var(--ion-color-primary-contrast);
+}
+.instagram {
+    position: relative;
+    top: 3px;
+    font-size: 22px;
 }
