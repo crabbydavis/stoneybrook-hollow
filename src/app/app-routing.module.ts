@@ -12,8 +12,8 @@ const routes: Routes = [
     loadComponent: () => import('./pages/landing/landing.page').then( m => m.LandingPage)
   },
   {
-    path: 'about',
-    loadComponent: () => import('./pages/about/about.page').then( m => m.AboutPage)
+    path: 'our-team',
+    loadComponent: () => import('./pages/our-team/our-team.page').then( m => m.OurTeamPage)
   },
   {
     path: 'contact',

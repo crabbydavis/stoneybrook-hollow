@@ -9,78 +9,32 @@
 
 <ion-content>
   <app-web-header class="hide-s"></app-web-header>
+  <div class="top">
+    <div class="header">
+      <h1>questions</h1>
+      <ion-row>
+        <ion-col class="ion-text-center">
+          <ion-button (click)="scroll(general)">General</ion-button>
+        </ion-col>
+        <ion-col class="ion-text-center">
+          <ion-button (click)="scroll(preschool)">Preschool & kindergarten</ion-button>
+        </ion-col>
+        <ion-col class="ion-text-center">
+          <ion-button (click)="scroll(olderClass)">1st - 3rd Grade</ion-button>
+        </ion-col>
+      </ion-row>
+    </div>
+  </div>
   <!-- <small>(<a tappable (click)="scroll(olderClass)">View 1st-3rd Grade FAQ</a>)</small> -->
-  <h1>Preschool & Kindergarten</h1>
-
-  <!-- <ion-row class="flex" class="ion-no-margin ion-align-items-center">
-    <ion-col class="ion-no-margin">
-      <h2 class="ion-margin-start">Pre-K FAQ (<a tappable (click)="scroll(olderClass)">1st-3rd Grade FAQ</a>)</h2>
-    </ion-col>
-    <ion-col class="ion-no-margin ion-text-right">
-      <a class="ion-margin-end" (click)="scroll(olderClass)">1st-3rd Grade FAQ</a>
-    </ion-col>
-  </ion-row> -->
+  <h1 #general>General</h1>
   <ion-accordion-group>
-    <!-- <ion-accordion *ngFor="let faq of faqs; let index = index"  toggle-icon="arrow-down-circle">
-      <ion-item slot="header" >
-        <ion-label class="ion-text-wrap">{{ faq.question }}</ion-label>
-      </ion-item>
-      <p slot="content" [innerHtml]="faq.answer"></p>
-    </ion-accordion> -->
     <ion-accordion  toggle-icon="arrow-down-circle">
       <ion-item slot="header" >
         <ion-label class="ion-text-wrap">Where are you located?</ion-label>
       </ion-item>
       <p slot="content">
-        We’re located at 416 S Mountain Rd, Fruit Heights, UT. We are a 9 minute walk to mountain trails and a 13 minute walk to creek access at Nicholls Park. Bonus: we’ve got a bus stop across the street for community-oriented field trips!<br><br>
-        Our indoor space has tons of natural lights and large classrooms with tons of room to play and be free. Our outdoor space includes a large (.45 acre), fenced-in FOREST!        
-      </p>
-    </ion-accordion>
-    <ion-accordion  toggle-icon="arrow-down-circle">
-      <ion-item slot="header" >
-        <ion-label class="ion-text-wrap">How much is tuition?</ion-label>
-      </ion-item>
-      <p slot="content">
-        Tuition is $325 a month. A $100 annual deposit is required upon enrollment to save your spot and will go towards the final month's tuition. We are happy to refund your deposit if we can fill your spot in a reasonable amount of time. There is a $100 annual registration fee.<br><br>
-        We believe that all children should have access to a quality early childhood education. We are opening a 501-3c non-profit and we hope to provide needs-based scholarships soon!<br><br>
-        If you have a Kindergartener, First - Third Grader and/or a child with a learning disability, funding may be available. Please reach out for more information. 
-      </p>
-    </ion-accordion>
-    <ion-accordion  toggle-icon="arrow-down-circle">
-      <ion-item slot="header" >
-        <ion-label class="ion-text-wrap">What ages can attend Stoneybrook Community school?</ion-label>
-      </ion-item>
-      <p slot="content">
-        We enroll children ages 3 - 6 in our Preschool & Kindergarten program.. Children must be 3 years old and potty trained by September 1st. Preschoolers and kindergarteners are mixed in the same class!<br><br>
-        Research has found many benefits to a mixed-aged classroom! Older children have the opportunity to explore academic skills at their own pace while also having the freedom to play. They get to nurture and lead younger children and share their skillsets with them.<br><br>
-        Younger children get to learn social and academic skills from older peers. They get to maintain continuity in their education, as they will have the same teacher for 3 years if they begin our program at age 3.<br><br>
-        We love our mixed-age classrooms!
-      </p>
-    </ion-accordion>
-    <ion-accordion  toggle-icon="arrow-down-circle">
-      <ion-item slot="header" >
-        <ion-label class="ion-text-wrap">What is the schedule?</ion-label>
-      </ion-item>
-      <p slot="content">
-        We meet Mondays - Thursdays. There are morning and afternoon classes available. Please see the pick up/drop off schedule here.<br><br>
-        We will follow the Davis County School District calendar for holidays and breaks. We do not offer 1, 2, 3 or 5 day options. Families may choose to come less than 4 days, but tuition will remain the same.<br><br>
-        The 2025-2026 school year will begin on September 2nd and end on May 21st.        
-      </p>
-    </ion-accordion>
-    <ion-accordion  toggle-icon="arrow-down-circle">
-      <ion-item slot="header" >
-        <ion-label class="ion-text-wrap">What is the teacher to student ratio?</ion-label>
-      </ion-item>
-      <p slot="content">
-        Our classrooms have a 1:8 teacher to student ratio. Each classroom has 16 children and two qualified and experienced teachers.    
-      </p>
-    </ion-accordion>
-    <ion-accordion  toggle-icon="arrow-down-circle">
-      <ion-item slot="header" >
-        <ion-label class="ion-text-wrap">Does Stoneybrook Community School have a religious affiliation?</ion-label>
-      </ion-item>
-      <p slot="content">
-        No. We deeply value diversity of thought and tradition. We welcome learners from all backgrounds and beliefs. We will objectively and respectfully learn about many international religions and cultures throughout the year.
+        We’re located at 579 S Main St, Kaysville, UT.<br><br>
+        We will be spending a lot of time at the Gailey Trail at Nicholls Park in Fruit Heights, as well as the Davis Tech Park next door.
       </p>
     </ion-accordion>
     <ion-accordion  toggle-icon="arrow-down-circle">
@@ -93,10 +47,30 @@
     </ion-accordion>
     <ion-accordion  toggle-icon="arrow-down-circle">
       <ion-item slot="header" >
-        <ion-label class="ion-text-wrap">Will a snack or lunch be provided?</ion-label>
+        <ion-label class="ion-text-wrap">What ages can attend Stoneybrook Community school?</ion-label>
       </ion-item>
       <p slot="content">
-        A healthy snack will be provided every day. We do not provide lunch. We can accommodate all dietary needs. We are happy and qualified to give tube feeds for our students with gastronomy tubes. We are a peanut-free campus.
+        We enroll children ages 3 - 6 in our Preschool & Kindergarten program. Children must be 3 years old and potty trained by September 1st. Preschoolers and kindergarteners are mixed in the same class!<br><br>
+        Research has found many benefits to a mixed-aged classroom! Older children have the opportunity to explore academic skills at their own pace while also having the freedom to play. They get to nurture and lead younger children and share their skillsets with them.<br><br>
+        Younger children get to learn social and academic skills from older peers. They get to maintain continuity in their education, as they will have the same teacher for 3 years if they begin our program at age 3.<br><br>
+        We love our mixed-age classrooms!
+      </p>
+    </ion-accordion>
+    <ion-accordion  toggle-icon="arrow-down-circle">
+      <ion-item slot="header" >
+        <ion-label class="ion-text-wrap">Are there scholarships or discounts?</ion-label>
+      </ion-item>
+      <p slot="content">
+        We strive to keep our program accessible. Parents with children in Kindergarten - 3rd Grade should be able to use funds
+        obtained from OpenEd, Harmony and the Utah Fits All Scholarship.
+      </p>
+    </ion-accordion>
+    <ion-accordion  toggle-icon="arrow-down-circle">
+      <ion-item slot="header" >
+        <ion-label class="ion-text-wrap">Does Stoneybrook Community School have a religious affiliation?</ion-label>
+      </ion-item>
+      <p slot="content">
+        No. We deeply value diversity of thought and tradition. We welcome learners from all backgrounds and beliefs. We will objectively and respectfully learn about many international religions and cultures throughout the year.
       </p>
     </ion-accordion>
     <ion-accordion  toggle-icon="arrow-down-circle">
@@ -107,15 +81,6 @@
         Miss Anna has a disabled child herself and is passionate about advocating for all children, especially those with unique needs. Please contact us about your child. We would love to provide a tailored learning experience for them within our area of expertise.<br><br>
         We cannot provide nurses or therapists at this time. If your child has a nurse, we welcome them in our studio. We will create an ILP (individualized learning plan - similar to an IEP) or an SSP (student support plan - similar to a 504) for your students to make sure they have equal access to a full and wholistic education.<br><br>
         If your Kindergartener has a learning disability, funding may be available. Please reach out!
-      </p>
-    </ion-accordion>
-    <ion-accordion  toggle-icon="arrow-down-circle">
-      <ion-item slot="header" >
-        <ion-label class="ion-text-wrap">Will my child be graded or tested?</ion-label>
-      </ion-item>
-      <p slot="content">
-        We guide children to skills such as mathematics or literacy when they are developmentally ready and interested. When your child is ready, they will learn to master skills at their own pace. We give little large-group instruction.<br><br>
-        Going at one's own pace fosters a love of learning. As such, we do not give grades or tests. We provide a variety of documentation for parents to follow along on their child's learning journey. Children are observed during play to determine mastery of skills.        
       </p>
     </ion-accordion>
     <ion-accordion  toggle-icon="arrow-down-circle">
@@ -147,51 +112,214 @@
     </ion-accordion>
     <ion-accordion  toggle-icon="arrow-down-circle">
       <ion-item slot="header" >
+        <ion-label class="ion-text-wrap">I want to learn more about your learning philosophy!</ion-label>
+      </ion-item>
+      <p slot="content">
+        Follow us on <a href="https://www.facebook.com/stoneybrookschool/" target="_blank">Facebook</a> or <a href="https://www.instagram.com/stoneybrookcommunityschool/" target="_blank">Instagram</a> to see what our day-to-day looks like.
+      </p>
+    </ion-accordion>
+    <ion-accordion  toggle-icon="arrow-down-circle">
+      <ion-item slot="header" >
+        <ion-label class="ion-text-wrap">How do you handle discipline?</ion-label>
+      </ion-item>
+      <p slot="content">
+        We use a positive discipline approach that focuses on emotional intelligence,
+        conflict resolution, and natural consequences. We are opposed to any forms of
+        authoritarian classroom management.
+      </p>
+    </ion-accordion>
+    <ion-accordion  toggle-icon="arrow-down-circle">
+      <ion-item slot="header" >
+        <ion-label class="ion-text-wrap">What is your stance on technology use?</ion-label>
+      </ion-item>
+      <p slot="content">
+        We are a low-tech program that prioritizes hands-on, nature-based learning.
+        Technology is not used as a primary teaching tool in our classrooms, but will be
+        used to help us explore our interests and execute our projects.
+      </p>
+    </ion-accordion>
+    <ion-accordion  toggle-icon="arrow-down-circle">
+      <ion-item slot="header" >
+        <ion-label class="ion-text-wrap">Do you offer field trips or extracurricular activities?</ion-label>
+      </ion-item>
+      <p slot="content">
+        Yes! We organize nature outings, field trips, and community events throughout the
+        year depending on the children’s interests.<br><br>
+        In addition, we plan to participate in a handful of service projects throughout the
+        year. When children are connected to their community, they grow up to be more
+        involved citizens.
+      </p>
+    </ion-accordion>
+    <ion-accordion  toggle-icon="arrow-down-circle">
+      <ion-item slot="header" >
+        <ion-label class="ion-text-wrap">What is your refund and reimbursement policy?</ion-label>
+      </ion-item>
+      <section slot="content">
+        <p>
+          At Stoneybrook Community School, enrollment secures your child’s place
+          in our program. As such, tuition is based on enrollment rather than
+          attendance.
+        </p>
+        <h4 class="ion-padding-horizontal">Withdrawal by Family</h4>
+        <p>
+        Families who choose to withdraw their child must provide a minimum of
+        two weeks’ written notice. Tuition is due in full through the end of the notice
+        period, regardless of attendance.
+        </p>
+        <p>
+        The $100 enrollment deposit may be refunded only if the vacated spot is
+        filled before the first day of the following month. After May 1, deposits are
+        non-refundable, as they are applied toward the final month’s tuition.
+      </p>
+        <h4 class="ion-padding-horizontal">Program-Initiated Termination</h4>
+        <p>
+        Stoneybrook reserves the right to terminate enrollment at any time. In most
+        cases, a two-week notice will be provided, and tuition will be due through
+        the notice period.
+      </p>
+      <p>
+        Immediate termination may occur in situations that impact the safety or
+        well-being of students, staff, or the school community. In such cases, no
+        further notice or tuition adjustment will be provided.
+        Reasons for termination may include, but are not limited to:
+      </p>
+        <ul>
+          <li>Compliance with school policies or procedures</li>
+          <li>Failure to make tuition payments</li>
+          <li>Lack of parental cooperation</li>
+          <li>Physical or verbal harm toward individuals or property</li>
+        </ul>
+      </section>
+    </ion-accordion>
+  </ion-accordion-group>
+
+
+  <h1 #preschool>Preschool & Kindergarten</h1>
+  <!-- <ion-row class="flex" class="ion-no-margin ion-align-items-center">
+    <ion-col class="ion-no-margin">
+      <h2 class="ion-margin-start">Pre-K FAQ (<a tappable (click)="scroll(olderClass)">1st-3rd Grade FAQ</a>)</h2>
+    </ion-col>
+    <ion-col class="ion-no-margin ion-text-right">
+      <a class="ion-margin-end" (click)="scroll(olderClass)">1st-3rd Grade FAQ</a>
+    </ion-col>
+  </ion-row> -->
+  <ion-accordion-group>
+    <!-- <ion-accordion *ngFor="let faq of faqs; let index = index"  toggle-icon="arrow-down-circle">
+      <ion-item slot="header" >
+        <ion-label class="ion-text-wrap">{{ faq.question }}</ion-label>
+      </ion-item>
+      <p slot="content" [innerHtml]="faq.answer"></p>
+    </ion-accordion> -->
+    
+    <ion-accordion  toggle-icon="arrow-down-circle">
+      <ion-item slot="header" >
+        <ion-label class="ion-text-wrap">How much is tuition?</ion-label>
+      </ion-item>
+      <p slot="content">
+        Tuition is $325 a month. A $100 annual deposit is required upon enrollment to save your spot and will go towards the final month's tuition. We are happy to refund your deposit if we can fill your spot in a reasonable amount of time. There is a $100 annual registration fee.<br><br>
+        We believe that all children should have access to a quality early childhood education. We are opening a 501-3c non-profit and we hope to provide needs-based scholarships soon!<br><br>
+        If you have a Kindergartener - Third Grader and/or a child with a learning disability, funding may be available. Please reach out for more information. 
+      </p>
+    </ion-accordion>
+
+    <ion-accordion  toggle-icon="arrow-down-circle">
+      <ion-item slot="header" >
+        <ion-label class="ion-text-wrap">What is the schedule?</ion-label>
+      </ion-item>
+      <p slot="content">
+        We meet Mondays - Thursdays. There are morning and afternoon classes available. Please see the pick up/drop off schedule <a href="classes">here</a>.<br><br>
+        We will follow the <a target="_blank" href="https://www.davis.k12.ut.us/page/school-year-calendars">Davis County School District calendar</a> for holidays and breaks. We do not offer 1, 2, 3 or 5 day options. Families may choose to come less than 4 days, but tuition will remain the same.<br><br>
+        The 2025-2026 school year will begin on September 2nd and end on May 21st.        
+      </p>
+    </ion-accordion>
+    <ion-accordion  toggle-icon="arrow-down-circle">
+      <ion-item slot="header" >
+        <ion-label class="ion-text-wrap">What is the teacher to student ratio?</ion-label>
+      </ion-item>
+      <p slot="content">
+        Our classrooms have a 1:8 teacher to student ratio. Each classroom has 16 children and two qualified and experienced teachers.    
+      </p>
+    </ion-accordion>
+
+
+    <ion-accordion  toggle-icon="arrow-down-circle">
+      <ion-item slot="header" >
+        <ion-label class="ion-text-wrap">Will a snack or lunch be provided?</ion-label>
+      </ion-item>
+      <p slot="content">
+        A healthy snack will be provided every day. We do not provide lunch. We can accommodate all dietary needs. We are happy and qualified to give tube feeds for our students with gastronomy tubes. We are a peanut-free campus.
+      </p>
+    </ion-accordion>
+    <ion-accordion  toggle-icon="arrow-down-circle">
+      <ion-item slot="header" >
+        <ion-label class="ion-text-wrap">Will my child be graded or tested?</ion-label>
+      </ion-item>
+      <p slot="content">
+        We guide children to skills such as mathematics or literacy when they are developmentally ready and interested. When your child is ready, they will learn to master skills at their own pace. We give little large-group instruction.<br><br>
+        Going at one's own pace fosters a love of learning. As such, we do not give grades or tests. We provide a variety of documentation for parents to follow along on their child's learning journey. Children are observed during play to determine mastery of skills.        
+      </p>
+    </ion-accordion>
+    <ion-accordion  toggle-icon="arrow-down-circle">
+      <ion-item slot="header" >
         <ion-label class="ion-text-wrap">Are you licensed?</ion-label>
       </ion-item>
       <p slot="content">
         We maintain a current <a href="https://drive.google.com/file/d/1YyXZ3zJEJVt8Dqpsx-FMZJQryPeossyG/view?usp=sharing" target="_blank">license</a> through Kaysville City.
       </p>
     </ion-accordion>
-    <ion-accordion  toggle-icon="arrow-down-circle">
-      <ion-item slot="header" >
-        <ion-label class="ion-text-wrap">I want to learn more about your learning philosophy!</ion-label>
-      </ion-item>
-      <p slot="content">
-        <a href="https://www.instagram.com/stoneybrookhollow/" target="_blank">Follow us</a>
-      </p>
-    </ion-accordion>
   </ion-accordion-group>
+
   <h1 #olderClass>1st - 3rd Grade</h1>
   <ion-accordion-group>
     <ion-accordion  toggle-icon="arrow-down-circle">
       <ion-item slot="header" >
-        <ion-label class="ion-text-wrap">What is Stoneybrook’s homeschool hybrid program?</ion-label>
+        <ion-label class="ion-text-wrap">How much is tuition?</ion-label>
       </ion-item>
-      <p slot="content">
-        Our homeschool hybrid program is built around the belief that learning should be rich,
-        meaningful, and deeply connected to the world around us.<br><br>
-        By prioritizing best educational practices, our program is designed to engage children
-        in hands-on, project-based experiences that are relevant and exciting. We want every
-        child to build a strong sense of community, where collaboration and meaningful
-        relationships are at the core of their daily interactions.<br><br>
-        Through local exploration and real-world connections, students develop their sense of
-        citizenship, which fosters a love for our community and their place within it.<br><br>
-        Above all, our program strives to ignite a lifelong love of learning and personal growth,
-        encouraging children to embrace challenges and discover the joy of childhood.
-      </p>
+      <div slot="content">
+        <ul>
+          <li>The Wayfinders Program: 3 days/week, 6 hours/ day, $500/ month</li>
+          <li>Explorers Club: 1 day/week, 6 hours/ day, $180/month</li>
+          <li>Wayfinders + Explorers Club: 4 days/week, 6 hours/day, $650/month</li>
+        </ul>
+      </div>
     </ion-accordion>
     <ion-accordion  toggle-icon="arrow-down-circle">
       <ion-item slot="header" >
-        <ion-label class="ion-text-wrap">What is the homeschool hybrid schedule?</ion-label>
+        <ion-label class="ion-text-wrap">What is Stoneybrook’s homeschool hybrid program?</ion-label>
       </ion-item>
       <div slot="content">
-        <p>We have 3 scheduling options:</p>
+        <p>
+          Our homeschool hybrid program is built around the belief that learning should be rich,
+          meaningful, and deeply connected to the world around us.<br><br>
+          By prioritizing best educational practices, our program is designed to engage children
+          in hands-on, project-based experiences that are relevant and exciting. We want every
+          child to build a strong sense of community, where collaboration and meaningful
+          relationships are at the core of their daily interactions.<br><br>
+          Through local exploration and real-world connections, students develop their sense of
+          citizenship, which fosters a love for our community and their place within it.<br><br>
+          Above all, our program strives to ignite a lifelong love of learning and personal growth,
+          encouraging children to embrace challenges and discover the joy of childhood.<br><br>
+          We have 3 options to choose from:
+        </p>
         <ul>
           <li>Explorers Club</li>
           <li>Wayfinders Program</li>
           <li>Explorers and Wayfinders combined</li>
         </ul>
+      </div>
+    </ion-accordion>
+    <ion-accordion  toggle-icon="arrow-down-circle">
+      <ion-item slot="header" >
+        <ion-label class="ion-text-wrap">What are the program hours?</ion-label>
+      </ion-item>
+      <div slot="content">
+        <p>We offer 3 different schedules:</p>
+        <ul>
+          <li>Explorers Club: Mondays from 9-3</li>
+          <li>Wayfinders Program: Tuesdays, Wednesdays and Thursdays from 9-3</li>
+          <li>Explorers & Wayfinders Combined: M-Th from 9-3</li>
+        </ul>
+        <p>We will follow the <a target="_blank" href="https://www.davis.k12.ut.us/page/school-year-calendars">Davis County School District calendar</a> for holidays and breaks.</p>
       </div>
     </ion-accordion>
     <ion-accordion  toggle-icon="arrow-down-circle">
@@ -229,6 +357,21 @@
     </ion-accordion>
     <ion-accordion  toggle-icon="arrow-down-circle">
       <ion-item slot="header" >
+        <ion-label class="ion-text-wrap">What ages/grades does the program serve?</ion-label>
+      </ion-item>
+      <p slot="content">
+        We serve First - Third graders (ages 6-9) in one mixed-age class.<br><br>
+        Mixed-age classrooms create a collaborative learning environment where younger
+        students learn from older peers, and older students reinforce their knowledge
+        through mentorship. This structure fosters independence, social-emotional
+        growth, and a strong sense of community while reducing competition. By mirroring
+        real-world social dynamics, mixed-age learning helps children develop
+        communication, leadership, and problem-solving skills that extend beyond the
+        classroom.
+      </p>
+    </ion-accordion>
+    <ion-accordion  toggle-icon="arrow-down-circle">
+      <ion-item slot="header" >
         <ion-label class="ion-text-wrap">Why do you follow the Utah Core?</ion-label>
       </ion-item>
       <p slot="content">
@@ -252,45 +395,6 @@
     </ion-accordion>
     <ion-accordion  toggle-icon="arrow-down-circle">
       <ion-item slot="header" >
-        <ion-label class="ion-text-wrap">Where is the program located?</ion-label>
-      </ion-item>
-      <p slot="content">
-        We’re located at 416 S. Mountain Rd, Fruit Heights, Utah. We are a 9 minute walk to
-        mountain trails and a 13 minute walk to creek access at Nicholls Park. Bonus: we’ve
-        got a bus stop across the street for community-oriented field trips!
-      </p>
-    </ion-accordion>
-    <ion-accordion  toggle-icon="arrow-down-circle">
-      <ion-item slot="header" >
-        <ion-label class="ion-text-wrap">What ages/grades does the program serve?</ion-label>
-      </ion-item>
-      <p slot="content">
-        We serve First - Third graders (ages 6-9) in one mixed-age class.<br><br>
-        Mixed-age classrooms create a collaborative learning environment where younger
-        students learn from older peers, and older students reinforce their knowledge
-        through mentorship. This structure fosters independence, social-emotional
-        growth, and a strong sense of community while reducing competition. By mirroring
-        real-world social dynamics, mixed-age learning helps children develop
-        communication, leadership, and problem-solving skills that extend beyond the
-        classroom.
-      </p>
-    </ion-accordion>
-    <ion-accordion  toggle-icon="arrow-down-circle">
-      <ion-item slot="header" >
-        <ion-label class="ion-text-wrap">What are the program hours?</ion-label>
-      </ion-item>
-      <div slot="content">
-        <p>We offer 3 different schedules:</p>
-        <ul>
-          <li>Explorers Club: Mondays from 9-3</li>
-          <li>Wayfinders Program: Tuesdays, Wednesdays and Thursdays from 9-3</li>
-          <li>Explorers & Wayfinders Combined: M-Th from 9-3</li>
-        </ul>
-        <p>We follow the Davis County School District calendar for all holidays and breaks</p>
-      </div>
-    </ion-accordion>
-    <ion-accordion  toggle-icon="arrow-down-circle">
-      <ion-item slot="header" >
         <ion-label class="ion-text-wrap">What teaching philosophy do you follow?</ion-label>
       </ion-item>
       <p slot="content">
@@ -301,16 +405,6 @@
         interests - our curriculum emerges from the children. Projects and investigations
         help the children dive into their interests further, honing the skills they’re working
         on during learning pods and at home.
-      </p>
-    </ion-accordion>
-    <ion-accordion  toggle-icon="arrow-down-circle">
-      <ion-item slot="header" >
-        <ion-label class="ion-text-wrap">How are students grouped?</ion-label>
-      </ion-item>
-      <p slot="content">
-        We have one multi-age classroom that promotes mentorship, collaboration, and
-        individualized learning experiences. During our learning pods, children will be
-        grouped based on skill level to make sure they are getting a “just right” challenge.
       </p>
     </ion-accordion>
     <ion-accordion  toggle-icon="arrow-down-circle">
@@ -338,8 +432,7 @@
       </ion-item>
       <p slot="content">
         Our teachers are highly qualified with years of experience.<br>
-        Our Wayfinders Teacher is Whitney Ure. Read her bio here.<br>
-        Our Explorers Club Teacher is Stephanie Woodward. Read her bio here.
+        Our Wayfinders Teacher is Whitney Ure. Read her bio <a href="about">here</a>.<br>
       </p>
     </ion-accordion>
     <ion-accordion  toggle-icon="arrow-down-circle">
@@ -348,7 +441,7 @@
       </ion-item>
       <p slot="content">
         We maintain small class sizes to ensure individualized attention and meaningful
-        connections. For the 25-26 school year, the ratio will be 1:10.
+        connections. For the 25-26 school year, the ratio will be 1:12.
       </p>
     </ion-accordion>
     <ion-accordion  toggle-icon="arrow-down-circle">
@@ -369,74 +462,12 @@
     </ion-accordion>
     <ion-accordion  toggle-icon="arrow-down-circle">
       <ion-item slot="header" >
-        <ion-label class="ion-text-wrap">Will my child have opportunities to make friends?</ion-label>
-      </ion-item>
-      <p slot="content">
-        Absolutely! Our program fosters a close-knit community where children can hone
-        their social and emotional skills in a safe, supportive environment.
-      </p>
-    </ion-accordion>
-    <ion-accordion  toggle-icon="arrow-down-circle">
-      <ion-item slot="header" >
-        <ion-label class="ion-text-wrap">Do you offer field trips or extracurricular activities?</ion-label>
-      </ion-item>
-      <p slot="content">
-        Yes! We organize nature outings, field trips, and community events throughout the
-        year depending on the children’s interests.<br><br>
-        In addition, we plan to participate in a handful of service projects throughout the
-        year. When children are connected to their community, they grow up to be more
-        involved citizens.
-      </p>
-    </ion-accordion>
-    <ion-accordion  toggle-icon="arrow-down-circle">
-      <ion-item slot="header" >
-        <ion-label class="ion-text-wrap">How much does the program cost?</ion-label>
-      </ion-item>
-      <div slot="content">
-        <ul>
-          <li>The Wayfinders Program: 3 days/week, 6 hours/ day, $500/ month</li>
-          <li>Explorers Club: 1 day/week, 6 hours/ day, $180/month</li>
-          <li>Wayfinders + Explorers Club: 4 days/week, 6 hours/day, $650/month</li>
-        </ul>
-      </div>
-    </ion-accordion>
-    <ion-accordion  toggle-icon="arrow-down-circle">
-      <ion-item slot="header" >
-        <ion-label class="ion-text-wrap">Are there scholarships or discounts?</ion-label>
-      </ion-item>
-      <p slot="content">
-        We strive to keep our program accessible. Parents should be able to use funds
-        obtained from OpenEd, Harmony and the Utah Fits All Scholarship.
-      </p>
-    </ion-accordion>
-    <ion-accordion  toggle-icon="arrow-down-circle">
-      <ion-item slot="header" >
         <ion-label class="ion-text-wrap">What is the attendance policy?</ion-label>
       </ion-item>
       <p slot="content">
         Families commit to their chosen schedule. Consistency helps create a stable
         learning environment as our projects are dependent on the current children in the
         classroom.
-      </p>
-    </ion-accordion>
-    <ion-accordion  toggle-icon="arrow-down-circle">
-      <ion-item slot="header" >
-        <ion-label class="ion-text-wrap">How do you handle discipline?</ion-label>
-      </ion-item>
-      <p slot="content">
-        We use a positive discipline approach that focuses on emotional intelligence,
-        conflict resolution, and natural consequences. We are opposed to any forms of
-        authoritarian classroom management.
-      </p>
-    </ion-accordion>
-    <ion-accordion  toggle-icon="arrow-down-circle">
-      <ion-item slot="header" >
-        <ion-label class="ion-text-wrap">What is your stance on technology use?</ion-label>
-      </ion-item>
-      <p slot="content">
-        We are a low-tech program that prioritizes hands-on, nature-based learning.
-        Technology is not used as a primary teaching tool in our classrooms, but will be
-        used to help us explore our interests and execute our projects.
       </p>
     </ion-accordion>
   </ion-accordion-group>

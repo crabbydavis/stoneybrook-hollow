@@ -1,23 +1,23 @@
 <ion-toolbar class="toolbar" [class.transparent]="transparent">
-    <img slot="start" src="assets/img/stoneybrookHorizontal.png" tappable (click)="navigate('landing')">
+    <img slot="start" src="assets/img/stoneybrookHorizontal.svg" tappable (click)="navigate('landing')">
     <ion-buttons slot="end">
       <ion-button fill="clear" mode="ios" color="light" (click)="navigate('landing')">
         home
       </ion-button>
-      <ion-button fill="clear" mode="ios" color="light" (click)="navigate('about')">
-        about
+      <ion-button fill="clear" mode="ios" color="light" (click)="navigate('our-team')">
+        our team
       </ion-button>
       <ion-button fill="clear" mode="ios" color="light" (click)="navigate('learn')">
         how we learn
+      </ion-button>
+      <ion-button fill="clear" mode="ios" color="light" (click)="navigate('classes')">
+        classes
       </ion-button>
       <ion-button fill="clear" mode="ios" color="light" (click)="navigate('faq')">
         questions
       </ion-button>
       <ion-button fill="clear" mode="ios" color="light" (click)="navigate('contact')">
         contact
-      </ion-button>
-      <ion-button fill="clear" mode="ios" color="light" (click)="navigate('classes')">
-        classes
       </ion-button>
     </ion-buttons>           
 </ion-toolbar>

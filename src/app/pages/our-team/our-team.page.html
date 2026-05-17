@@ -1,0 +1,211 @@
+<ion-header class="hide-l">
+  <ion-toolbar>
+    <ion-title>our team</ion-title>
+    <ion-buttons slot="end">
+      <ion-menu-button color="light" autoHide="false"></ion-menu-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <app-web-header class="hide-s"></app-web-header>
+  <h1>our team</h1>
+  <ion-grid>
+    <ion-row class="ion-justify-content-center">
+      <ion-col sizeXs="12" sizeSm="6" sizeMd="6" sizeLg="4" sizeXl="4">
+        <ion-card>
+          <img alt="Miss Anna portrait" src="assets/img/our-team/anna.png" />
+          <ion-card-header>
+            <ion-card-title>Miss Anna</ion-card-title>
+            <ion-card-subtitle>Owner, Director & Teacher</ion-card-subtitle>
+            <a href="mailto:anna@stoneybrookschool.com">anna&#64;stoneybrookschool.com</a>
+          </ion-card-header>
+          <ion-button color="seconary" fill="clear" (click)="scroll(anna)">read bio</ion-button>
+        </ion-card>
+      </ion-col>
+      <ion-col sizeXs="12" sizeSm="6" sizeMd="6" sizeLg="4" sizeXl="4">
+        <ion-card>
+          <img alt="Miss Aubrie portrait" src="assets/img/our-team/aubrie.jpg" />
+          <ion-card-header>
+            <ion-card-title>Miss Aubrie</ion-card-title>
+            <ion-card-subtitle>Assistant Director & Teacher</ion-card-subtitle>
+            <a href="mailto:aubrie@stoneybrookschool.com">aubrie&#64;stoneybrookschool.com</a>
+          </ion-card-header>
+          <ion-button color="seconary" fill="clear" (click)="scroll(aubrie)">read bio</ion-button>
+        </ion-card>
+      </ion-col>
+      <ion-col sizeXs="12" sizeSm="6" sizeMd="6" sizeLg="4" sizeXl="4">
+        <ion-card>
+          <img alt="Miss Whitney portrait" src="assets/img/our-team/whitney.jpg" />
+          <ion-card-header>
+            <ion-card-title>Miss Whitney</ion-card-title>
+            <ion-card-subtitle>Wayfinders Program Teacher</ion-card-subtitle>
+            <a href="mailto:whitney@stoneybrookschool.com">whitney&#64;stoneybrookschool.com</a>
+          </ion-card-header>
+          <ion-button color="seconary" fill="clear" (click)="scroll(whitney)">read bio</ion-button>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+    <ion-row class="ion-justify-content-center">
+      <ion-col sizeXs="12" sizeSm="6" sizeMd="6" sizeLg="4" sizeXl="4">
+        <ion-card>
+          <img alt="Miss Jennifer portrait" src="assets/img/our-team/jennifer.png" />
+          <ion-card-header>
+            <ion-card-title>Miss Jennifer</ion-card-title>
+            <ion-card-subtitle>Explorers Club Teacher</ion-card-subtitle>
+            <a href="mailto:jennifer@stoneybrookschool.com">jennifer&#64;stoneybrookschool.com</a>
+          </ion-card-header>
+          <ion-button color="seconary" fill="clear" (click)="scroll(jennifer)">read bio</ion-button>
+        </ion-card>
+      </ion-col>
+      <ion-col sizeXs="12" sizeSm="6" sizeMd="6" sizeLg="4" sizeXl="4">
+        <ion-card>
+          <img alt="Miss Aven portrait" src="assets/img/our-team/aven.png" />
+          <ion-card-header>
+            <ion-card-title>Miss Aven</ion-card-title>
+            <ion-card-subtitle>Aspen and Maple Co-Teacher</ion-card-subtitle>
+          </ion-card-header>
+          <ion-button color="seconary" fill="clear" (click)="scroll(aven)">read bio</ion-button>
+        </ion-card>
+      </ion-col>
+      <ion-col sizeXs="12" sizeSm="6" sizeMd="6" sizeLg="4" sizeXl="4">
+        <ion-card>
+          <img alt="Miss Halie portrait" src="assets/img/our-team/halie.jpeg" />
+          <ion-card-header>
+            <ion-card-title>Miss Halie</ion-card-title>
+            <ion-card-subtitle>Aspen and Maple Co-Teacher</ion-card-subtitle>
+          </ion-card-header>
+          <ion-button color="seconary" fill="clear" (click)="scroll(halie)">read bio</ion-button>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+    <ion-row class="ion-justify-content-center">
+      <ion-col sizeXs="12" sizeSm="6" sizeMd="6" sizeLg="4" sizeXl="4">
+        <ion-card>
+          <img alt="Miss Cami portrait" src="assets/img/our-team/cami.png" />
+          <ion-card-header>
+            <ion-card-title>Miss Cami</ion-card-title>
+            <ion-card-subtitle>Morning Floater</ion-card-subtitle>
+          </ion-card-header>
+          <ion-button color="seconary" fill="clear" (click)="scroll(cami)">read bio</ion-button>
+        </ion-card>
+      </ion-col>
+      <ion-col sizeXs="12" sizeSm="6" sizeMd="6" sizeLg="4" sizeXl="4">
+        <ion-card>
+          <img alt="Miss Natalie portrait" src="assets/img/our-team/natalie.png" />
+          <ion-card-header>
+            <ion-card-title>Miss Natalie</ion-card-title>
+            <ion-card-subtitle>Afternoon Floater</ion-card-subtitle>
+          </ion-card-header>
+          <ion-button color="seconary" fill="clear" (click)="scroll(natalie)">read bio</ion-button>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  <h2 #anna>
+    Miss Anna<br>
+    <small>Owner & Director & Teacher</small>
+  </h2>
+  <img class="hide-l" src="assets/img/our-team/anna.png">
+  <section>
+    <img class="hide-s" src="assets/img/our-team/anna.png">
+    <div>
+      <p>Anna spent her childhood in the rural outskirts of Grantsville, Utah, where she spent hours wrapped up in elaborate imaginative play, usually involving some combination of Barbie dolls, cardboard, and her mom’s fabric box.</p>
+      <p>As an adult, she received her bachelor's degree in human development with a minor in international development, where she focused on issues in childhood development and education. She is particularly passionate about innovative education, which is what inspired her to found Stoneybrook Hollow.</p>
+      <p>Anna is trained in the Montessori philosophy and was the lead guide in the primary classroom at Lighthouse Montessori Academy in Provo. Following her time there, she had the opportunity to create the early childhood studio at Choice Academy in Bountiful. She was the lead guide there, where she honed her Montessori skills and experimented with innovative ideas in education, including the principles of Reggio Emilia.</p>
+      <p>She now resides in Kaysville, with her husband, Davis, and her two young children. They love trying new foods, playing board games, tackling home renovation projects and having impassioned conversations about their dreams!</p>
+    </div>
+  </section>
+  <h2 #aubrie>
+    Miss Aubrie<br>
+    <small>Assistant Director & Teacher</small>
+  </h2>
+  <img class="hide-l" src="assets/img/our-team/aubrie.jpg">
+  <section>
+    <div>
+      <p>Aubrie spent her childhood in the small town of Monroe, Utah, where her time was filled with hiking mountains, climbing trees, chasing butterflies and swimming in the surrounding lakes. If she wasn’t adventuring outdoors, she was spending time in her dad’s classroom, pretending to be a teacher herself.</p>
+      <p>Her love for learning and educating was solidified when she graduated high school and began working at a Montessori-inspired preschool. This opened her eyes to child-led learning and developed her passion to create individualized learning based on each child. During this time, Aubrie received her certification in Montessori and was able to shadow at a few of Utah’s top Montessori schools.</p>
+      <p>She now lives in Layton, Utah with her husband, Chris and 4-year-old twins, Haddie and Hendrik. Becoming a mom has given Aubrie a deeper appreciation for childhood and the joy children create. She is excited to be a positive, encouraging guide at Stoneybrook Hollow!</p>
+    </div>
+    <img class="hide-s" src="assets/img/our-team/aubrie.jpg">
+  </section>
+  <h2 #whitney>
+    Miss Whitney<br>
+    <small>Wayfinders Program Teacher</small>
+  </h2>
+  <img class="hide-l" src="assets/img/our-team/whitney.jpg">
+  <section>
+    <img class="hide-s" src="assets/img/our-team/whitney.jpg">
+    <div>
+      <p>Whitney spent her childhood building rivers in the sandbox, collecting rocks in her red wagon, and rollerblading through the neighborhood. She loved designing wooden train villages and imagining new worlds - early signs of her passion for hands-on learning.</p>
+      <p>She earned a Bachelor of Science in Elementary Education from Utah State University and has spent over seven years as an educator. She began as an Upper Elementary Lead Guide at Cypress Junction Montessori, later working as a private tutor and a lead teacher at The Learning Bee School, specializing in small group instruction and supporting neurodivergent learners.</p>
+      <p>Whitney holds an Elementary II Montessori credential and is a licensed educator with her Reading Endorsement. She is passionate about child-led learning and is excited to inspire curiosity and creativity at Stoneybrook!</p>
+    </div>
+  </section>
+  <h2 #jennifer>
+    Miss Jennifer<br>
+    <small>Explorers Club Teacher</small>
+  </h2>
+  <img class="hide-l" src="assets/img/our-team/jennifer.png">
+  <section>
+    <div>
+      <p>Jennifer Eagar grew up alongside her four siblings in Sunset, Utah.  They spent most of their summers, and every day after school, playing outside and exploring until the sun went down. She has fond memories of going to look for tadpoles, playing in gigantic leaf piles, climbing up and down the massive piles of snow, and swinging from tree branches.</p>
+      <p>She earned her Bachelor of Science in Geography, with a minor in Geology from Weber State University where she studied education. Her goal was to teach these subjects, however in her last semester she found out that she and her husband were having their first child and the dream of being a teacher was put on hold while she raised her four wonderful children.</p>
+      <p>For the past four years she has worked as a math tutor in grades K-6 at Sam Morgan Elementary. She is excited to use everything she has learned to guide and teach the children at Stoneybrook.  Let's get outside and start exploring!</p>
+    </div>
+    <img class="hide-s" src="assets/img/our-team/jennifer.png">
+  </section>
+  <h2 #aven>
+    Miss Aven<br>
+    <small>Aspen and Maple Co-Teacher</small>
+  </h2>
+  <img class="hide-l" src="assets/img/our-team/aven.png">
+  <section>
+    <img class="hide-s" src="assets/img/our-team/aven.png">
+    <div>
+      <p>Aven grew up in rural Oregon, where she spent her days exploring the redwoods and wandering the coastline near her home. When she wasn’t there, she could often be found on the slopes, skiing with her family.</p>
+      <p>She earned her degree in Elementary Education and her master’s in ABA Therapy with an emphasis in Autism from Arizona State University. Aven has been a licensed Utah educator for over six years and has taught in the Davis School District for the past five.</p>
+      <p>Now living in Syracuse, Utah, with her husband, their two-year-old son, and another little one on the way, Aven loves spending time outdoors in the mountains or curled up with a good book and her kitties.</p>
+    </div>
+  </section>
+  <h2 #halie>
+    Miss Halie<br>
+    <small>Juniper and Oak Co-Teacher</small>
+  </h2>
+  <img class="hide-l" src="assets/img/our-team/halie.jpeg">
+  <section>
+    <div>
+      <p>As a keen people-watcher from an early age, she loved observing and attempting the characteristics, skills, and talents of anyone she found intriguing, leaving her with a wide variety of hobbies and interests.</p>
+      <p>As an adult, Halie graduated from Southern Utah University with a Bachelor of Fine arts in Classical Acting, and, holding on to her ability and love of play, tried her luck in a big city. For nearly a decade, she worked professionally as an actor and artist in Chicago, while taking up all kinds of jobs in the hospitality and service industries on the side. Eventually she found that the job that made her happiest was working with children, beginning as a private nanny in 2020, moving on to daycare in 2024, and finally becoming a teacher in 2025 after moving back home to be with family.</p>
+      <p>Halie now lives in Kaysville with her husband Nate and her dog Pippin, who is the best girl. If she’s not teaching kids at school, she’s setting up and enjoying activities with her most beloved nieces/nephews, working on theatre/art projects with friends, or using her Lagoon season pass. She knows that life is an adventure, and can’t wait to engage Stoneybrook students in play, creativity, and exploration!</p>
+    </div>
+    <img class="hide-s" src="assets/img/our-team/halie.jpeg">
+  </section>
+  <h2 #cami>
+    Miss Cami<br>
+    <small>Morning Floater</small>
+  </h2>
+  <img class="hide-l" src="assets/img/our-team/cami.png">
+  <section>
+    <img class="hide-s" src="assets/img/our-team/cami.png">
+    <div>
+      <p>Cami grew up in Salt Lake City, Utah, where she spent much of her free time outdoors, embracing new adventures and cherishing moments with family and friends. Her love for learning and teaching began early in her mother’s classrooms. As a young girl, Cami helped with her mom’s summer programs, teaching and guiding young minds while making sure the kids had fun in the process. During the school year, Cami often spent extra time in the classroom, cultivating a passion for education and a deep connection with children.</p>
+      <p>After high school, Cami worked as a nanny for three different families, where she developed a love for Montessori and Child-Led educational methods. She witnessed firsthand how these approaches could benefit young minds. She also worked as a swim instructor, which added another layer to her understanding of child development and helped build young children’s confidence.</p>
+      <p>Cami now lives in Layton, Utah with her husband, Austin, and their two children, Elissa and Lewis. As a family, they love spending time outdoors and strengthening their bonds. Cami is passionate about using everything she has learned to nurture her children's growth and development, and she’s excited to continue adjusting and evolving her teaching style every day.</p>
+    </div>
+  </section>
+  <h2 #natalie>
+    Miss Natalie<br>
+    <small>Afternoon Floater</small>
+  </h2>
+  <img class="hide-l" src="assets/img/our-team/natalie.png">
+  <section>
+    <div>
+      <p>Natalie spent most of her childhood playing in the big open field owned by her grandparents. She loved playing “babies,” making music on the piano, and catching frogs in her backyard ditch. She also enjoyed spending time with animals, including cats, dogs, goats, hamsters, her sugar glider, and the horses at the barn next door.</p>
+      <p>She believes that learning through play is one of the most important parts of early childhood. Natalie sees nature as one of the greatest teachers and loves supporting children in exploring the outdoors, observing its wonders, and discovering how it connects to their everyday learning.</p>
+      <p>Natalie lives in Layton with her husband and two children. As a family, they enjoy walks, camping, golfing, birdwatching, and skiing, and they try to spend as much time outdoors as possible no matter the season. They are currently in the middle of renovating their home and love doing projects together.</p>
+    </div>
+    <img class="hide-s" src="assets/img/our-team/natalie.png">
+  </section>
+  <app-footer></app-footer>
+</ion-content>
